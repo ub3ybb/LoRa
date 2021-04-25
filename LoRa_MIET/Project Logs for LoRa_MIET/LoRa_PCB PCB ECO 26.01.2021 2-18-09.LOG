@@ -1,0 +1,6 @@
+Added Component: Designator=XS?(USB-B)
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? 292304-2
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS1-233-0-0-1-T
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS12-TL051-1x1-G/Y-1-03
+Added Room: Name=LoRa_PCB
+Added Room: Name=Sheet1

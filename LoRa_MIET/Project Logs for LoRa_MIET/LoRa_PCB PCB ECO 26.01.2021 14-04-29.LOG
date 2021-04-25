@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=XS3-4
+Removed Pin From Net: NetName=GND Pin=XS3-5
+Change Component Designator: OldDesignator=XS4 NewDesignator=XS3
+Added Component: Designator=XT?(DG128-5.0-02P-14)
+Added Component: Designator=XT?(DG308-2.54-02P)
+Added Pin To Net: NetName=GND Pin=XS3-4
+Added Pin To Net: NetName=GND Pin=XS3-5
+Added Member To Class: ClassName=LoRa_PCB Member=Component XT? DG128-5.0-02P-14
+Added Member To Class: ClassName=LoRa_PCB Member=Component XT? DG308-2.54-02P

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=3.3V Pin=K1-A2
+Removed Pin From Net: NetName=NetK1_12 Pin=XS1-1
+Removed Pin From Net: NetName=NetK1_14 Pin=XS1-3
+Added Pin To Net: NetName=NetK1_14 Pin=XS1-1
+Added Pin To Net: NetName=NetK1_12 Pin=XS1-3
+Added Pin To Net: NetName=NetVD1_1 Pin=VD1-1
+Added Pin To Net: NetName=NetVD1_1 Pin=VT1-3
+Added Net: Name=NetVD1_1
+Added Member To Class: ClassName=LoRa_PCB Member=Component K1 1393219-3

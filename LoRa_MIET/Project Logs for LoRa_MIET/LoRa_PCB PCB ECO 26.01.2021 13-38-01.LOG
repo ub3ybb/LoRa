@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=3.3V Pin=C14-2
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=3.3V Pin=C16-2
+Removed Pin From Net: NetName=GND Pin=R10-1
+Removed Pin From Net: NetName=TEMP Pin=R10-2
+Removed Member From Class: ClassName=LoRa_PCB Member=C14
+Removed Member From Class: ClassName=LoRa_PCB Member=C16
+Removed Member From Class: ClassName=LoRa_PCB Member=R10
+Change Component Designator: OldDesignator=DD? NewDesignator=DD3
+Change Component Designator: OldDesignator=G? NewDesignator=G1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=XP? NewDesignator=XP1
+Change Component Designator: OldDesignator=XS? NewDesignator=XS2
+Change Component Designator: OldDesignator=XS? NewDesignator=XS3
+Change Component Designator: OldDesignator=ZQ? NewDesignator=ZQ1
+Added Component: Designator=C2(C_0805)
+Added Component: Designator=D1(RA-02)
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=3V3 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=3V3 Pin=D1-3
+Added Pin To Net: NetName=GND Pin=D1-9
+Added Pin To Net: NetName=GND Pin=D1-16
+Added Pin To Net: NetName=GND Pin=XS2-0
+Added Pin To Net: NetName=GND Pin=XS2-0
+Added Pin To Net: NetName=5V_USB Pin=XS2-1
+Added Pin To Net: NetName=USB_N Pin=XS2-2
+Added Pin To Net: NetName=USB_P Pin=XS2-3
+Added Pin To Net: NetName=GND Pin=XS2-4
+Added Pin To Net: NetName=GND Pin=XW1-1
+Added Pin To Net: NetName=GND Pin=XW1-1
+Added Pin To Net: NetName=GND Pin=XW1-1
+Added Pin To Net: NetName=GND Pin=XW1-1
+Added Pin To Net: NetName=LORA_DIO0 Pin=D1-5
+Added Net: Name=LORA_DIO0
+Added Pin To Net: NetName=LORA_MISO Pin=D1-13
+Added Net: Name=LORA_MISO
+Added Pin To Net: NetName=LORA_MOSI Pin=D1-14
+Added Net: Name=LORA_MOSI
+Added Pin To Net: NetName=LORA_NSS Pin=D1-15
+Added Net: Name=LORA_NSS
+Added Pin To Net: NetName=LORA_RST Pin=D1-4
+Added Net: Name=LORA_RST
+Added Pin To Net: NetName=LORA_SCK Pin=D1-12
+Added Net: Name=LORA_SCK
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=XW1-2
+Added Net: Name=NetD1_1
+Added Member To Class: ClassName=LoRa_PCB Member=Component C2 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component D1 BC56-12SRWA_1
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS2 292304-2
+Added Member To Class: ClassName=Sheet1 Member=Component XS3 KLS12-TL051-1x1-G/Y-1-03

@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=USB_P_ST Pin=R19-1
+Removed Pin From Net: NetName=USB_N_ST Pin=R21-1
+Change Component Description : Designator=VT3 Old Description=MOSFET, N-канал, 0.2А, 50В New Description= MOSFET, N-канал, 0.2А, 50В
+Added Component: Designator=SW12(KLS7-TS6604-5.0-180-B)
+Added Pin To Net: NetName=USB_P Pin=R19-1
+Added Pin To Net: NetName=USB_N Pin=R21-1
+Added Pin To Net: NetName=NetSW12_1 Pin=SW12-1
+Added Pin To Net: NetName=NetSW12_1 Pin=SW12-1
+Added Pin To Net: NetName=1 Pin=SW12-2
+Added Pin To Net: NetName=1 Pin=SW12-2
+Change Net Name : Old Net Name=NetC19_1 New Net Name=RD1_P
+Change Net Name : Old Net Name=NetC19_2 New Net Name=RD_P
+Change Net Name : Old Net Name=NetC20_1 New Net Name=RD1_N
+Change Net Name : Old Net Name=NetC20_2 New Net Name=RD_N
+Change Net Name : Old Net Name=NetDD3_1 New Net Name=TD1_P
+Change Net Name : Old Net Name=NetDD3_2 New Net Name=TD1_N
+Change Net Name : Old Net Name=NetDD3_5 New Net Name=RD2_N
+Change Net Name : Old Net Name=NetDD3_6 New Net Name=RD2_P
+Change Net Name : Old Net Name=NetR5_1 New Net Name=TD_P
+Change Net Name : Old Net Name=NetR6_1 New Net Name=TD_N
+Added Differential Pair: Name=RD1
+Added Differential Pair: Name=RD2
+Added Differential Pair: Name=RD
+Added Differential Pair: Name=TD1
+Added Differential Pair: Name=TD
+Added Member To Class: ClassName=Sheet1 Member=Component SW12 KLS7-TS6604

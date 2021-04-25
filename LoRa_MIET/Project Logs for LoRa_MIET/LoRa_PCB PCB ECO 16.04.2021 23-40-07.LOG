@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetDA3_1 Pin=HL1-2
+Removed Member From Class: ClassName=LoRa_PCB Member=HL1
+Added Component: Designator=HL?(LED_0805_GREEN)
+Added Pin To Net: NetName=NetDA3_1 Pin=HL?-1
+Added Pin To Net: NetName=NetHL?_2 Pin=HL?-2
+Added Pin To Net: NetName=NetHL?_2 Pin=R17-1
+Added Net: Name=NetHL?_2
+Added Member To Class: ClassName=LoRa_PCB Member=Component C1 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C3 1 MK
+Added Member To Class: ClassName=LoRa_PCB Member=Component C7 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C8 1 MK
+Added Member To Class: ClassName=LoRa_PCB Member=Component C9 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C10 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C25 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA1 USBLC6-2SC6
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? BL-LS0805PGC
+Added Member To Class: ClassName=LoRa_PCB Member=Component R2 1ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R4 1.5ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R8 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R9 2 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R11 1ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R17 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R19 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R21 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD1 SS14
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD3 LL4148-GS08
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD4 BZV55-B3V3,115
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT1 IRLML5203TRPBF
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT4 BC847
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP1 PLS-8
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP2 PBS-8

@@ -1,0 +1,39 @@
+Added Component: Designator=D1(DRF1278F)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.dorji.com/docs/data/DRF1278F.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=G1(TBH-18650-1A-P)
+Added Component: Designator=G?(18650X1)
+Added Component: Designator=K1(HJR-3FF-5VDC-S-Z)
+Added Component: Designator=R10(KT83D)
+Added Pin To Net: NetName=GND Pin=DD?-3
+Added Pin To Net: NetName=3V3 Pin=DD?-4
+Added Pin To Net: NetName=3V3 Pin=DD?-8
+Added Pin To Net: NetName=GND Pin=DD?-9
+Added Pin To Net: NetName=3V3 Pin=DD?-11
+Added Pin To Net: NetName=GND Pin=DD?-14
+Added Pin To Net: NetName=3V3 Pin=DD?-15
+Added Pin To Net: NetName=GND Pin=DD?-16
+Added Pin To Net: NetName=3V3 Pin=DD?-17
+Added Pin To Net: NetName=GND Pin=DD?-19
+Added Pin To Net: NetName=3V3 Pin=DD?-28
+Added Pin To Net: NetName=GND Pin=DD?-29
+Added Pin To Net: NetName=GND Pin=DD?-48
+Added Pin To Net: NetName=GND Pin=G1-1
+Added Pin To Net: NetName=CELL Pin=G1-2
+Added Pin To Net: NetName=NetK1_1 Pin=K1-1
+Added Pin To Net: NetName=NetK1_2 Pin=K1-2
+Added Pin To Net: NetName=NetK1_3 Pin=K1-3
+Added Pin To Net: NetName=NetK1_4 Pin=K1-4
+Added Pin To Net: NetName=3.3V Pin=K1-5
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=TEMP Pin=R10-2
+Added Pin To Net: NetName=GND Pin=XS?-4
+Added Pin To Net: NetName=GND Pin=XS?-5
+Added Member To Class: ClassName=LoRa_PCB Member=Component D1 DRF1278F
+Added Member To Class: ClassName=LoRa_PCB Member=Component G1 TBH-18650-1A-P
+Added Member To Class: ClassName=LoRa_PCB Member=Component G? 18650X1
+Added Member To Class: ClassName=LoRa_PCB Member=Component K1 HJR-3FF-5VDC-S-Z
+Added Member To Class: ClassName=LoRa_PCB Member=Component R10 Thermo_Resistor
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS1-233-0-0-1-T
+Added Room: Name=LoRa_PCB
+Added Room: Name=Sheet1

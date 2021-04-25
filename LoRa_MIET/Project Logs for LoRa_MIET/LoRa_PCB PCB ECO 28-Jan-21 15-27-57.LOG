@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=LED Pin=DD2-2
+Change Component Designator: OldDesignator=DA? NewDesignator=DA2
+Change Component Designator: OldDesignator=VT? NewDesignator=VT3
+Change Component Description : Designator=VT3 Old Description=MOSFET, N-канал, 0.2А, 50В New Description= MOSFET, N-канал, 0.2А, 50В
+Added Pin To Net: NetName=Cell_VLT Pin=DD1-14
+Added Pin To Net: NetName=PWR_B Pin=DD1-15
+Added Pin To Net: NetName=PWR Pin=DD1-16
+Added Pin To Net: NetName=ET_RSTn Pin=DD1-54
+Added Pin To Net: NetName=LED Pin=DD2-4
+Added Pin To Net: NetName=GPIO1 Pin=XP3-3
+Added Pin To Net: NetName=GPIO1 Pin=XP3-3
+Added Net: Name=GPIO1
+Added Pin To Net: NetName=GPIO2 Pin=XP3-4
+Added Pin To Net: NetName=GPIO2 Pin=XP3-4
+Added Net: Name=GPIO2
+Added Pin To Net: NetName=GPIO3 Pin=XP3-5
+Added Pin To Net: NetName=GPIO3 Pin=XP3-5
+Added Net: Name=GPIO3
+Added Pin To Net: NetName=GPIO4 Pin=XP3-6
+Added Pin To Net: NetName=GPIO4 Pin=XP3-6
+Added Net: Name=GPIO4
+Added Pin To Net: NetName=GPIO5 Pin=XP3-7
+Added Pin To Net: NetName=GPIO5 Pin=XP3-7
+Added Net: Name=GPIO5
+Added Pin To Net: NetName=I2C_SCL Pin=DD1-61
+Added Pin To Net: NetName=I2C_SCL Pin=XP3-1
+Added Pin To Net: NetName=I2C_SCL Pin=XP3-1
+Added Net: Name=I2C_SCL
+Added Pin To Net: NetName=I2C_SDA Pin=DD1-62
+Added Pin To Net: NetName=I2C_SDA Pin=XP3-2
+Added Pin To Net: NetName=I2C_SDA Pin=XP3-2
+Added Net: Name=I2C_SDA

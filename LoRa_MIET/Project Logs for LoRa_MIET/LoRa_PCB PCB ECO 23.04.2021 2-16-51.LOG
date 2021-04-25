@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=CELL Pin=R1-1
+Removed Member From Class: ClassName=Sheet1 Member=C13
+Change Component Description : Designator=VD1 Old Description=Диод Шоттки, 2 диода, общий катод, 30В, 0.2А [SOT-23] New Description=Диод Шоттки, 2 диода, общий катод, 30В, 0.2А [SOT-23]
+
+Added Pin To Net: NetName=NetC12_1 Pin=R1-1
+Added Member To Class: ClassName=LoRa_PCB Member=Component C1 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C3 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C4 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C5 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C6 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C7 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C8 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C9 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C12 0,1 мк
+Added Member To Class: ClassName=Sheet1 Member=Component C14 6800
+Added Member To Class: ClassName=Sheet1 Member=Component C15 6800
+Added Member To Class: ClassName=Sheet1 Member=Component C18 0.01
+Added Member To Class: ClassName=Sheet1 Member=Component C19 4,7мк
+Added Member To Class: ClassName=Sheet1 Member=Component C21 0,1 мк
+Added Member To Class: ClassName=Sheet1 Member=Component C22 0,1 мк
+Added Member To Class: ClassName=Sheet1 Member=Component C24 0,1 мк
+Added Member To Class: ClassName=Sheet1 Member=Component C25 10мк

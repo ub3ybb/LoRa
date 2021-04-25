@@ -1,0 +1,3 @@
+Change Net Name : Old Net Name=BOOT0 New Net Name=GND
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1.5ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1ê

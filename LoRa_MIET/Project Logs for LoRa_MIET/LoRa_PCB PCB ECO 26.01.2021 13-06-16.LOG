@@ -1,0 +1,48 @@
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=GND Pin=DA2-2
+Removed Pin From Net: NetName=GND Pin=DA2-4
+Removed Pin From Net: NetName=GND Pin=R6-2
+Removed Pin From Net: NetName=GND Pin=XS?-4
+Removed Pin From Net: NetName=GND Pin=XS?-5
+Removed Member From Class: ClassName=LoRa_PCB Member=C2
+Removed Member From Class: ClassName=LoRa_PCB Member=C3
+Removed Member From Class: ClassName=LoRa_PCB Member=C4
+Removed Member From Class: ClassName=LoRa_PCB Member=C5
+Removed Member From Class: ClassName=LoRa_PCB Member=C6
+Removed Member From Class: ClassName=LoRa_PCB Member=DA2
+Removed Member From Class: ClassName=LoRa_PCB Member=DD?
+Removed Member From Class: ClassName=LoRa_PCB Member=L1
+Removed Member From Class: ClassName=LoRa_PCB Member=R1
+Removed Member From Class: ClassName=LoRa_PCB Member=R3
+Removed Member From Class: ClassName=LoRa_PCB Member=R5
+Removed Member From Class: ClassName=LoRa_PCB Member=R6
+Removed Member From Class: ClassName=LoRa_PCB Member=VD2
+Change Component Footprint: Designator=XS? Old Footprint=KLS12-TL051 New Footprint=KLS1-233-0-0-1-T
+Change Component Comment : Designator=XS? Old Comment=KLS12-TL051-1x1-G/Y-1-03 New Comment=KLS1-233-0-0-1-T
+Added Component: Designator=G?(12BHC186P1-GR)
+Added Component: Designator=R10(KT83D)
+Added Component: Designator=XS?(KLS12-TL051)
+Added Pin To Net: NetName=CELL Pin=G?-1
+Added Pin To Net: NetName=GND Pin=G?-2
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=TEMP Pin=R10-2
+Added Pin To Net: NetName=5V_USB Pin=XS?-1
+Added Pin To Net: NetName=USB_N Pin=XS?-2
+Added Pin To Net: NetName=USB_P Pin=XS?-3
+Added Pin To Net: NetName=GND Pin=XS?-4
+Added Pin To Net: NetName=EXT_GND Pin=XS?-5
+Added Pin To Net: NetName=EXT_GND Pin=XS?-5
+Added Pin To Net: NetName=EXT_GND Pin=XS?-5
+Added Pin To Net: NetName=EXT_GND Pin=XS?-5
+Added Pin To Net: NetName=EXT_GND Pin=XS?-5
+Added Pin To Net: NetName=GND Pin=XS?-5
+Added Member To Class: ClassName=Sheet1 Member=Component DD? W5500
+Added Member To Class: ClassName=LoRa_PCB Member=Component G? 12BHC186P1-GR
+Added Member To Class: ClassName=LoRa_PCB Member=Component R10 Thermo_Resistor
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS1-233-0-0-1-T
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? 292304-2
+Added Member To Class: ClassName=Sheet1 Member=Component XS? KLS12-TL051-1x1-G/Y-1-03

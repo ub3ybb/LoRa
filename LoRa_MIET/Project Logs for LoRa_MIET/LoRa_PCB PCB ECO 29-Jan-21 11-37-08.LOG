@@ -1,0 +1,2 @@
+Change Component Description : Designator=VT3 Old Description=MOSFET, N-канал, 0.2А, 50В New Description= MOSFET, N-канал, 0.2А, 50В
+Added Pin To Net: NetName=GND Pin=C23-1

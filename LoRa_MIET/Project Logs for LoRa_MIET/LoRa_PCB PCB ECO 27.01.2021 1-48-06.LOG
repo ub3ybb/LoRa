@@ -1,0 +1,56 @@
+Added Pin To Net: NetName=LED Pin=DD?-2
+Added Pin To Net: NetName=4 Pin=DD?-3
+Added Pin To Net: NetName=5 Pin=DD?-4
+Added Pin To Net: NetName=RESET Pin=DD?-7
+Added Pin To Net: NetName=Relay Pin=DD?-8
+Added Pin To Net: NetName=1 Pin=DD?-9
+Added Pin To Net: NetName=2 Pin=DD?-10
+Added Pin To Net: NetName=3 Pin=DD?-11
+Added Pin To Net: NetName=GND Pin=DD?-12
+Added Pin To Net: NetName=3V3 Pin=DD?-13
+Added Pin To Net: NetName=BUZZER Pin=DD?-17
+Added Pin To Net: NetName=GND Pin=DD?-18
+Added Pin To Net: NetName=3V3 Pin=DD?-19
+Added Pin To Net: NetName=LORA_NSS Pin=DD?-20
+Added Pin To Net: NetName=LORA_SCK Pin=DD?-21
+Added Pin To Net: NetName=LORA_MISO Pin=DD?-22
+Added Pin To Net: NetName=LORA_MOSI Pin=DD?-23
+Added Pin To Net: NetName=GND Pin=DD?-31
+Added Pin To Net: NetName=3V3 Pin=DD?-32
+Added Pin To Net: NetName=TFT_CS Pin=DD?-33
+Added Pin To Net: NetName=TFT_SCL Pin=DD?-34
+Added Pin To Net: NetName=TFT_DS Pin=DD?-35
+Added Pin To Net: NetName=TFT_SDA Pin=DD?-36
+Added Pin To Net: NetName=TFT_RES Pin=DD?-37
+Added Pin To Net: NetName=a Pin=DD?-38
+Added Pin To Net: NetName=b Pin=DD?-39
+Added Pin To Net: NetName=c Pin=DD?-40
+Added Pin To Net: NetName=LORA_RST Pin=DD?-41
+Added Pin To Net: NetName=USB_N_ST Pin=DD?-44
+Added Pin To Net: NetName=USB_P_ST Pin=DD?-45
+Added Pin To Net: NetName=SWDIO Pin=DD?-46
+Added Pin To Net: NetName=GND Pin=DD?-47
+Added Pin To Net: NetName=3V3 Pin=DD?-48
+Added Pin To Net: NetName=SWCLK Pin=DD?-49
+Added Pin To Net: NetName=d Pin=DD?-51
+Added Pin To Net: NetName=e Pin=DD?-52
+Added Pin To Net: NetName=ET_SCLK Pin=DD?-55
+Added Pin To Net: NetName=ET_MISO Pin=DD?-56
+Added Pin To Net: NetName=ET_MOSI Pin=DD?-57
+Added Pin To Net: NetName=ET_INTn Pin=DD?-58
+Added Pin To Net: NetName=ET_SCSn Pin=DD?-59
+Added Pin To Net: NetName=BOOT0 Pin=DD?-60
+Added Pin To Net: NetName=GND Pin=DD?-63
+Added Pin To Net: NetName=3V3 Pin=DD?-64
+Added Pin To Net: NetName=LORA_DIO1 Pin=DD?-42
+Added Net: Name=LORA_DIO1
+Added Pin To Net: NetName=NetDD?_5 Pin=DD?-5
+Added Pin To Net: NetName=NetDD?_5 Pin=ZQ1-3
+Added Net: Name=NetDD?_5
+Added Pin To Net: NetName=NetDD?_6 Pin=DD?-6
+Added Pin To Net: NetName=NetDD?_6 Pin=ZQ1-1
+Added Net: Name=NetDD?_6
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\MEGA\LoRa_MIET\LoRa_MIET\LoRa_PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=lora_pcb-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=lora_pcb-slotholes.txt|DrillLayers=gtl,gbl

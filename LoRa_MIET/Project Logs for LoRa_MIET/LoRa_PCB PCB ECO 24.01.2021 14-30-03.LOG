@@ -1,0 +1,37 @@
+Removed Member From Class: ClassName=Sheet1 Member=SW?
+Change Component Designator: OldDesignator=C? NewDesignator=C13
+Change Component Designator: OldDesignator=C? NewDesignator=C15
+Change Component Designator: OldDesignator=HL? NewDesignator=HL3
+Change Component Designator: OldDesignator=HL? NewDesignator=HL4
+Change Component Designator: OldDesignator=HL? NewDesignator=HL7
+Change Component Designator: OldDesignator=R? NewDesignator=R14
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change Component Designator: OldDesignator=R? NewDesignator=R17
+Change Component Designator: OldDesignator=R? NewDesignator=R18
+Change Component Designator: OldDesignator=R? NewDesignator=R19
+Change Component Designator: OldDesignator=SW? NewDesignator=SW31
+Change Component Designator: OldDesignator=SW? NewDesignator=SW32
+Change Component Designator: OldDesignator=VD? NewDesignator=VD3
+Change Component Designator: OldDesignator=VD? NewDesignator=VD4
+Change Component Designator: OldDesignator=VT? NewDesignator=VT4
+Change Component Designator: OldDesignator=ZQ? NewDesignator=ZQ1
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC15_1
+Change Net Name : Old Net Name=NetHL?_1 New Net Name=NetHL3_1
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_1 Pin=ZQ1-3
+Added Net: Name=NetC13_1
+Added Pin To Net: NetName=NetHL4_1 Pin=HL4-1
+Added Pin To Net: NetName=NetHL4_1 Pin=R16-1
+Added Net: Name=NetHL4_1
+Added Pin To Net: NetName=NetHL7_1 Pin=HL7-1
+Added Pin To Net: NetName=NetHL7_1 Pin=R17-1
+Added Net: Name=NetHL7_1
+Added Member To Class: ClassName=LoRa_PCB Member=Component C15 22
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL4 BL-HGK36G
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL7 BL-HGK36G
+Added Member To Class: ClassName=LoRa_PCB Member=Component R14 1 ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R16 1 ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R18 10 ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R19 10 ê
+Added Member To Class: ClassName=Sheet1 Member=Component SW32 KLS7-TS6604
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD3 LL4148-GS08

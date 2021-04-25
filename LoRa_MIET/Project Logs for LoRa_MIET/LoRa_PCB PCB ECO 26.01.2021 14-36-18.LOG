@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=3V3 Pin=BA1-1
+Removed Pin From Net: NetName=GND Pin=HL2-2
+Removed Pin From Net: NetName=GND Pin=HL3-2
+Removed Pin From Net: NetName=GND Pin=HL4-2
+Removed Pin From Net: NetName=3V3 Pin=VD3-2
+Removed Member From Class: ClassName=LoRa_PCB Member=HL2
+Removed Member From Class: ClassName=LoRa_PCB Member=HL3
+Removed Member From Class: ClassName=LoRa_PCB Member=HL4
+Removed Member From Class: ClassName=LoRa_PCB Member=R13
+Removed Member From Class: ClassName=LoRa_PCB Member=R14
+Removed Member From Class: ClassName=LoRa_PCB Member=R15
+Added Component: Designator=DD?(WS2812B)
+Added Pin To Net: NetName=3V3 Pin=DD?-1
+Added Pin To Net: NetName=GND Pin=DD?-3
+Added Pin To Net: NetName=LED Pin=DD?-2
+Added Net: Name=LED
+Added Pin To Net: NetName=NetBA1_1 Pin=BA1-1
+Added Pin To Net: NetName=NetBA1_1 Pin=VD3-2
+Added Net: Name=NetBA1_1
+Added Member To Class: ClassName=LoRa_PCB Member=Component DD? WS2812B
+Added Member To Class: ClassName=Sheet1 Member=Component XS3 KLS12-TL051-1x1-G/Y-1-03
+Added Member To Class: ClassName=LoRa_PCB Member=Component XT? DG128-5.0-02P-14

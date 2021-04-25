@@ -1,0 +1,9 @@
+Change Component Description : Designator=VT3 Old Description=MOSFET, N-канал, 0.2А, 50В New Description= MOSFET, N-канал, 0.2А, 50В
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT3 BSS138

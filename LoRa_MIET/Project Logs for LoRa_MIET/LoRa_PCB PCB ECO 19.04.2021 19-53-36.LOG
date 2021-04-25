@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=5V_ST Pin=R21-2
+Removed Member From Class: ClassName=LoRa_PCB Member=R21
+Added Component: Designator=R?(R_0805)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V_ST Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 kOhms

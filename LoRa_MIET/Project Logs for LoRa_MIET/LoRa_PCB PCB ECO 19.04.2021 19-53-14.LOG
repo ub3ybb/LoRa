@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=PWR Pin=R23-2
+Removed Member From Class: ClassName=Sheet1 Member=C14
+Removed Member From Class: ClassName=LoRa_PCB Member=R23
+Change Component Description : Designator=VD1 Old Description=Диод Шоттки, 2 диода, общий катод, 30В, 0.2А [SOT-23] New Description=Диод Шоттки, 2 диода, общий катод, 30В, 0.2А [SOT-23]
+
+Added Pin To Net: NetName=PWR Pin=VT2-1
+Added Member To Class: ClassName=LoRa_PCB Member=Component C1 1 MK
+Added Member To Class: ClassName=LoRa_PCB Member=Component C2 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C3 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C7 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C8 0,1 мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component C25 0,1 мк
+Added Member To Class: ClassName=Sheet1 Member=Component C? 10мк
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA2 USBLC6-2SC6
+Added Member To Class: ClassName=LoRa_PCB Member=Component DD2 STM32F103R6T6A
+Added Member To Class: ClassName=LoRa_PCB Member=Component R8 1.5 kOhms
+Added Member To Class: ClassName=LoRa_PCB Member=Component R9 33 Ohms
+Added Member To Class: ClassName=LoRa_PCB Member=Component R17 10 kOhms
+Added Member To Class: ClassName=LoRa_PCB Member=Component R18 1 kOhms
+Added Member To Class: ClassName=LoRa_PCB Member=Component R19 1 kOhms
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD1 BAT54C
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD3 LL4148-GS08
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD4 SS14
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT2 2N7002
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT3 IRLML5203TRPBF
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP1 PBS-8

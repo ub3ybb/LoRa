@@ -1,0 +1,355 @@
+Removed Pin From Net: NetName=GND Pin=R28-1
+Removed Pin From Net: NetName=GND Pin=R29-1
+Removed Pin From Net: NetName=GND Pin=R30-1
+Removed Pin From Net: NetName=e Pin=R30-2
+Removed Pin From Net: NetName=GND Pin=R31-1
+Removed Pin From Net: NetName=GND Pin=R32-1
+Removed Pin From Net: NetName=GND Pin=R33-1
+Removed Pin From Net: NetName=GND Pin=R34-1
+Removed Pin From Net: NetName=GND Pin=R35-1
+Removed Pin From Net: NetName=GND Pin=R36-1
+Removed Pin From Net: NetName=GND Pin=R37-1
+Removed Pin From Net: NetName=GND Pin=R38-1
+Removed Pin From Net: NetName=a Pin=R38-2
+Removed Pin From Net: NetName=GND Pin=R39-1
+Removed Pin From Net: NetName=GND Pin=R40-1
+Removed Pin From Net: NetName=d Pin=R40-2
+Removed Pin From Net: NetName=GND Pin=R41-1
+Removed Pin From Net: NetName=f Pin=R41-2
+Removed Pin From Net: NetName=GND Pin=R42-1
+Removed Pin From Net: NetName=GND Pin=R43-1
+Removed Pin From Net: NetName=GND Pin=R44-1
+Removed Pin From Net: NetName=GND Pin=R45-1
+Removed Pin From Net: NetName=GND Pin=R46-1
+Removed Pin From Net: NetName=GND Pin=R47-1
+Removed Pin From Net: NetName=GND Pin=R48-1
+Removed Pin From Net: NetName=GND Pin=R49-1
+Removed Pin From Net: NetName=c Pin=R49-2
+Removed Pin From Net: NetName=GND Pin=R50-1
+Removed Pin From Net: NetName=GND Pin=R51-1
+Removed Pin From Net: NetName=b Pin=R51-2
+Removed Pin From Net: NetName=GND Pin=R52-1
+Removed Pin From Net: NetName=GND Pin=R53-1
+Removed Pin From Net: NetName=GND Pin=R54-1
+Removed Pin From Net: NetName=GND Pin=R55-1
+Removed Pin From Net: NetName=GND Pin=R56-1
+Removed Pin From Net: NetName=3.3V Pin=SB5-1
+Removed Pin From Net: NetName=3.3V Pin=SB5-1
+Removed Pin From Net: NetName=3.3V Pin=SB6-1
+Removed Pin From Net: NetName=3.3V Pin=SB6-1
+Removed Pin From Net: NetName=3.3V Pin=SB7-1
+Removed Pin From Net: NetName=3.3V Pin=SB7-1
+Removed Pin From Net: NetName=e Pin=SB7-2
+Removed Pin From Net: NetName=e Pin=SB7-2
+Removed Pin From Net: NetName=3.3V Pin=SB8-1
+Removed Pin From Net: NetName=3.3V Pin=SB8-1
+Removed Pin From Net: NetName=3.3V Pin=SB9-1
+Removed Pin From Net: NetName=3.3V Pin=SB9-1
+Removed Pin From Net: NetName=3.3V Pin=SB10-1
+Removed Pin From Net: NetName=3.3V Pin=SB10-1
+Removed Pin From Net: NetName=3.3V Pin=SB11-1
+Removed Pin From Net: NetName=3.3V Pin=SB11-1
+Removed Pin From Net: NetName=3.3V Pin=SB12-1
+Removed Pin From Net: NetName=3.3V Pin=SB12-1
+Removed Pin From Net: NetName=3.3V Pin=SB13-1
+Removed Pin From Net: NetName=3.3V Pin=SB13-1
+Removed Pin From Net: NetName=3.3V Pin=SB14-1
+Removed Pin From Net: NetName=3.3V Pin=SB14-1
+Removed Pin From Net: NetName=3.3V Pin=SB15-1
+Removed Pin From Net: NetName=3.3V Pin=SB15-1
+Removed Pin From Net: NetName=a Pin=SB15-2
+Removed Pin From Net: NetName=a Pin=SB15-2
+Removed Pin From Net: NetName=3.3V Pin=SB16-1
+Removed Pin From Net: NetName=3.3V Pin=SB16-1
+Removed Pin From Net: NetName=3.3V Pin=SB17-1
+Removed Pin From Net: NetName=3.3V Pin=SB17-1
+Removed Pin From Net: NetName=d Pin=SB17-2
+Removed Pin From Net: NetName=d Pin=SB17-2
+Removed Pin From Net: NetName=3.3V Pin=SB18-1
+Removed Pin From Net: NetName=3.3V Pin=SB18-1
+Removed Pin From Net: NetName=f Pin=SB18-2
+Removed Pin From Net: NetName=f Pin=SB18-2
+Removed Pin From Net: NetName=3.3V Pin=SB19-1
+Removed Pin From Net: NetName=3.3V Pin=SB19-1
+Removed Pin From Net: NetName=3.3V Pin=SB20-1
+Removed Pin From Net: NetName=3.3V Pin=SB20-1
+Removed Pin From Net: NetName=3.3V Pin=SB21-1
+Removed Pin From Net: NetName=3.3V Pin=SB21-1
+Removed Pin From Net: NetName=3.3V Pin=SB22-1
+Removed Pin From Net: NetName=3.3V Pin=SB22-1
+Removed Pin From Net: NetName=3.3V Pin=SB23-1
+Removed Pin From Net: NetName=3.3V Pin=SB23-1
+Removed Pin From Net: NetName=3.3V Pin=SB24-1
+Removed Pin From Net: NetName=3.3V Pin=SB24-1
+Removed Pin From Net: NetName=3.3V Pin=SB25-1
+Removed Pin From Net: NetName=3.3V Pin=SB25-1
+Removed Pin From Net: NetName=3.3V Pin=SB26-1
+Removed Pin From Net: NetName=3.3V Pin=SB26-1
+Removed Pin From Net: NetName=c Pin=SB26-2
+Removed Pin From Net: NetName=c Pin=SB26-2
+Removed Pin From Net: NetName=3.3V Pin=SB27-1
+Removed Pin From Net: NetName=3.3V Pin=SB27-1
+Removed Pin From Net: NetName=3.3V Pin=SB28-1
+Removed Pin From Net: NetName=3.3V Pin=SB28-1
+Removed Pin From Net: NetName=b Pin=SB28-2
+Removed Pin From Net: NetName=b Pin=SB28-2
+Removed Pin From Net: NetName=3.3V Pin=SB29-1
+Removed Pin From Net: NetName=3.3V Pin=SB29-1
+Removed Pin From Net: NetName=3.3V Pin=SB30-1
+Removed Pin From Net: NetName=3.3V Pin=SB30-1
+Removed Pin From Net: NetName=3.3V Pin=SB31-1
+Removed Pin From Net: NetName=3.3V Pin=SB31-1
+Removed Pin From Net: NetName=3.3V Pin=SB32-1
+Removed Pin From Net: NetName=3.3V Pin=SB32-1
+Removed Pin From Net: NetName=3.3V Pin=SB33-1
+Removed Pin From Net: NetName=3.3V Pin=SB33-1
+Removed Member From Class: ClassName=Sheet1 Member=R28
+Removed Member From Class: ClassName=Sheet1 Member=R29
+Removed Member From Class: ClassName=Sheet1 Member=R30
+Removed Member From Class: ClassName=Sheet1 Member=R31
+Removed Member From Class: ClassName=Sheet1 Member=R32
+Removed Member From Class: ClassName=Sheet1 Member=R33
+Removed Member From Class: ClassName=Sheet1 Member=R34
+Removed Member From Class: ClassName=Sheet1 Member=R35
+Removed Member From Class: ClassName=Sheet1 Member=R36
+Removed Member From Class: ClassName=Sheet1 Member=R37
+Removed Member From Class: ClassName=Sheet1 Member=R38
+Removed Member From Class: ClassName=Sheet1 Member=R39
+Removed Member From Class: ClassName=Sheet1 Member=R40
+Removed Member From Class: ClassName=Sheet1 Member=R41
+Removed Member From Class: ClassName=Sheet1 Member=R42
+Removed Member From Class: ClassName=Sheet1 Member=R43
+Removed Member From Class: ClassName=Sheet1 Member=R44
+Removed Member From Class: ClassName=Sheet1 Member=R45
+Removed Member From Class: ClassName=Sheet1 Member=R46
+Removed Member From Class: ClassName=Sheet1 Member=R47
+Removed Member From Class: ClassName=Sheet1 Member=R48
+Removed Member From Class: ClassName=Sheet1 Member=R49
+Removed Member From Class: ClassName=Sheet1 Member=R50
+Removed Member From Class: ClassName=Sheet1 Member=R51
+Removed Member From Class: ClassName=Sheet1 Member=R52
+Removed Member From Class: ClassName=Sheet1 Member=R53
+Removed Member From Class: ClassName=Sheet1 Member=R54
+Removed Member From Class: ClassName=Sheet1 Member=R55
+Removed Member From Class: ClassName=Sheet1 Member=R56
+Removed Member From Class: ClassName=Sheet1 Member=SB5
+Removed Member From Class: ClassName=Sheet1 Member=SB6
+Removed Member From Class: ClassName=Sheet1 Member=SB7
+Removed Member From Class: ClassName=Sheet1 Member=SB8
+Removed Member From Class: ClassName=Sheet1 Member=SB9
+Removed Member From Class: ClassName=Sheet1 Member=SB10
+Removed Member From Class: ClassName=Sheet1 Member=SB11
+Removed Member From Class: ClassName=Sheet1 Member=SB12
+Removed Member From Class: ClassName=Sheet1 Member=SB13
+Removed Member From Class: ClassName=Sheet1 Member=SB14
+Removed Member From Class: ClassName=Sheet1 Member=SB15
+Removed Member From Class: ClassName=Sheet1 Member=SB16
+Removed Member From Class: ClassName=Sheet1 Member=SB17
+Removed Member From Class: ClassName=Sheet1 Member=SB18
+Removed Member From Class: ClassName=Sheet1 Member=SB19
+Removed Member From Class: ClassName=Sheet1 Member=SB20
+Removed Member From Class: ClassName=Sheet1 Member=SB21
+Removed Member From Class: ClassName=Sheet1 Member=SB22
+Removed Member From Class: ClassName=Sheet1 Member=SB23
+Removed Member From Class: ClassName=Sheet1 Member=SB24
+Removed Member From Class: ClassName=Sheet1 Member=SB25
+Removed Member From Class: ClassName=Sheet1 Member=SB26
+Removed Member From Class: ClassName=Sheet1 Member=SB27
+Removed Member From Class: ClassName=Sheet1 Member=SB28
+Removed Member From Class: ClassName=Sheet1 Member=SB29
+Removed Member From Class: ClassName=Sheet1 Member=SB30
+Removed Member From Class: ClassName=Sheet1 Member=SB31
+Removed Member From Class: ClassName=Sheet1 Member=SB32
+Removed Member From Class: ClassName=Sheet1 Member=SB33
+Added Component: Designator=SW1(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW2(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW3(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW4(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW5(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW6(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW7(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW8(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW9(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW10(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW11(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW12(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW13(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW14(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW15(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW16(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW17(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW18(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW19(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW20(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW21(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW22(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW23(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW24(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW25(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW26(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW27(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW28(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW29(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW30(KLS7-TS6604-5.0-180-B)
+Added Pin To Net: NetName=a Pin=SW1-1
+Added Pin To Net: NetName=a Pin=SW1-1
+Added Pin To Net: NetName=a Pin=SW2-1
+Added Pin To Net: NetName=a Pin=SW2-1
+Added Pin To Net: NetName=a Pin=SW3-1
+Added Pin To Net: NetName=a Pin=SW3-1
+Added Pin To Net: NetName=a Pin=SW4-1
+Added Pin To Net: NetName=a Pin=SW4-1
+Added Pin To Net: NetName=a Pin=SW5-1
+Added Pin To Net: NetName=a Pin=SW5-1
+Added Pin To Net: NetName=b Pin=SW6-1
+Added Pin To Net: NetName=b Pin=SW6-1
+Added Pin To Net: NetName=b Pin=SW7-1
+Added Pin To Net: NetName=b Pin=SW7-1
+Added Pin To Net: NetName=b Pin=SW8-1
+Added Pin To Net: NetName=b Pin=SW8-1
+Added Pin To Net: NetName=b Pin=SW9-1
+Added Pin To Net: NetName=b Pin=SW9-1
+Added Pin To Net: NetName=b Pin=SW10-1
+Added Pin To Net: NetName=b Pin=SW10-1
+Added Pin To Net: NetName=c Pin=SW11-1
+Added Pin To Net: NetName=c Pin=SW11-1
+Added Pin To Net: NetName=c Pin=SW12-1
+Added Pin To Net: NetName=c Pin=SW12-1
+Added Pin To Net: NetName=c Pin=SW13-1
+Added Pin To Net: NetName=c Pin=SW13-1
+Added Pin To Net: NetName=c Pin=SW14-1
+Added Pin To Net: NetName=c Pin=SW14-1
+Added Pin To Net: NetName=c Pin=SW15-1
+Added Pin To Net: NetName=c Pin=SW15-1
+Added Pin To Net: NetName=d Pin=SW16-1
+Added Pin To Net: NetName=d Pin=SW16-1
+Added Pin To Net: NetName=d Pin=SW17-1
+Added Pin To Net: NetName=d Pin=SW17-1
+Added Pin To Net: NetName=d Pin=SW18-1
+Added Pin To Net: NetName=d Pin=SW18-1
+Added Pin To Net: NetName=d Pin=SW19-1
+Added Pin To Net: NetName=d Pin=SW19-1
+Added Pin To Net: NetName=d Pin=SW20-1
+Added Pin To Net: NetName=d Pin=SW20-1
+Added Pin To Net: NetName=e Pin=SW21-1
+Added Pin To Net: NetName=e Pin=SW21-1
+Added Pin To Net: NetName=e Pin=SW22-1
+Added Pin To Net: NetName=e Pin=SW22-1
+Added Pin To Net: NetName=e Pin=SW23-1
+Added Pin To Net: NetName=e Pin=SW23-1
+Added Pin To Net: NetName=e Pin=SW24-1
+Added Pin To Net: NetName=e Pin=SW24-1
+Added Pin To Net: NetName=e Pin=SW25-1
+Added Pin To Net: NetName=e Pin=SW25-1
+Added Pin To Net: NetName=f Pin=SW26-1
+Added Pin To Net: NetName=f Pin=SW26-1
+Added Pin To Net: NetName=f Pin=SW27-1
+Added Pin To Net: NetName=f Pin=SW27-1
+Added Pin To Net: NetName=f Pin=SW28-1
+Added Pin To Net: NetName=f Pin=SW28-1
+Added Pin To Net: NetName=f Pin=SW29-1
+Added Pin To Net: NetName=f Pin=SW29-1
+Added Pin To Net: NetName=f Pin=SW30-1
+Added Pin To Net: NetName=f Pin=SW30-1
+Added Pin To Net: NetName=1 Pin=SW1-2
+Added Pin To Net: NetName=1 Pin=SW1-2
+Added Pin To Net: NetName=1 Pin=SW6-2
+Added Pin To Net: NetName=1 Pin=SW6-2
+Added Pin To Net: NetName=1 Pin=SW11-2
+Added Pin To Net: NetName=1 Pin=SW11-2
+Added Pin To Net: NetName=1 Pin=SW16-2
+Added Pin To Net: NetName=1 Pin=SW16-2
+Added Pin To Net: NetName=1 Pin=SW21-2
+Added Pin To Net: NetName=1 Pin=SW21-2
+Added Pin To Net: NetName=1 Pin=SW26-2
+Added Pin To Net: NetName=1 Pin=SW26-2
+Added Net: Name=1
+Added Pin To Net: NetName=2 Pin=SW2-2
+Added Pin To Net: NetName=2 Pin=SW2-2
+Added Pin To Net: NetName=2 Pin=SW7-2
+Added Pin To Net: NetName=2 Pin=SW7-2
+Added Pin To Net: NetName=2 Pin=SW12-2
+Added Pin To Net: NetName=2 Pin=SW12-2
+Added Pin To Net: NetName=2 Pin=SW17-2
+Added Pin To Net: NetName=2 Pin=SW17-2
+Added Pin To Net: NetName=2 Pin=SW22-2
+Added Pin To Net: NetName=2 Pin=SW22-2
+Added Pin To Net: NetName=2 Pin=SW27-2
+Added Pin To Net: NetName=2 Pin=SW27-2
+Added Net: Name=2
+Added Pin To Net: NetName=3 Pin=SW3-2
+Added Pin To Net: NetName=3 Pin=SW3-2
+Added Pin To Net: NetName=3 Pin=SW8-2
+Added Pin To Net: NetName=3 Pin=SW8-2
+Added Pin To Net: NetName=3 Pin=SW13-2
+Added Pin To Net: NetName=3 Pin=SW13-2
+Added Pin To Net: NetName=3 Pin=SW18-2
+Added Pin To Net: NetName=3 Pin=SW18-2
+Added Pin To Net: NetName=3 Pin=SW23-2
+Added Pin To Net: NetName=3 Pin=SW23-2
+Added Pin To Net: NetName=3 Pin=SW28-2
+Added Pin To Net: NetName=3 Pin=SW28-2
+Added Net: Name=3
+Added Pin To Net: NetName=4 Pin=SW4-2
+Added Pin To Net: NetName=4 Pin=SW4-2
+Added Pin To Net: NetName=4 Pin=SW9-2
+Added Pin To Net: NetName=4 Pin=SW9-2
+Added Pin To Net: NetName=4 Pin=SW14-2
+Added Pin To Net: NetName=4 Pin=SW14-2
+Added Pin To Net: NetName=4 Pin=SW19-2
+Added Pin To Net: NetName=4 Pin=SW19-2
+Added Pin To Net: NetName=4 Pin=SW24-2
+Added Pin To Net: NetName=4 Pin=SW24-2
+Added Pin To Net: NetName=4 Pin=SW29-2
+Added Pin To Net: NetName=4 Pin=SW29-2
+Added Net: Name=4
+Added Pin To Net: NetName=5 Pin=SW5-2
+Added Pin To Net: NetName=5 Pin=SW5-2
+Added Pin To Net: NetName=5 Pin=SW10-2
+Added Pin To Net: NetName=5 Pin=SW10-2
+Added Pin To Net: NetName=5 Pin=SW15-2
+Added Pin To Net: NetName=5 Pin=SW15-2
+Added Pin To Net: NetName=5 Pin=SW20-2
+Added Pin To Net: NetName=5 Pin=SW20-2
+Added Pin To Net: NetName=5 Pin=SW25-2
+Added Pin To Net: NetName=5 Pin=SW25-2
+Added Pin To Net: NetName=5 Pin=SW30-2
+Added Pin To Net: NetName=5 Pin=SW30-2
+Added Net: Name=5
+Added Member To Class: ClassName=LoRa_PCB Member=Component C20 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA2 LDO
+Added Member To Class: ClassName=LoRa_PCB Member=Component R5 1 ך
+Added Member To Class: ClassName=Sheet1 Member=Component SW1 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW2 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW3 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW4 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW5 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW6 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW7 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW8 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW9 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW10 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW11 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW12 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW13 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW14 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW15 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW16 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW17 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW18 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW19 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW20 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW21 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW22 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW23 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW24 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW25 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW26 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW27 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW28 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW29 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW30 KLS7-TS6604
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD2 LL4148-GS08
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT1 BC847
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP1 PLD-10
+Added Room: Name=Sheet1

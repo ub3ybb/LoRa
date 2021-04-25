@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=3.3V Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=C19-1
+Removed Pin From Net: NetName=3.3V Pin=C19-2
+Removed Pin From Net: NetName=GND Pin=XP1-9
+Removed Pin From Net: NetName=GND Pin=XP1-10
+Removed Member From Class: ClassName=LoRa_PCB Member=C18
+Removed Member From Class: ClassName=LoRa_PCB Member=C19
+Removed Member From Class: ClassName=LoRa_PCB Member=XP1
+Added Component: Designator=XS?(DS1098-WN0)
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS1-233-0-0-1-T
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? DS1098-WN0
+Added Room: Name=LoRa_PCB
+Added Room: Name=Sheet1

@@ -1,0 +1,3 @@
+Change Component Description : Designator=VT3 Old Description=MOSFET, N-канал, 0.2А, 50В New Description= MOSFET, N-канал, 0.2А, 50В
+Change Differential Pair Positive Net Name : Old Net Name=USB2_N New Net Name=USB2_P
+Change Differential Pair Negative Net Name : Old Net Name=USB2_P New Net Name=USB2_N

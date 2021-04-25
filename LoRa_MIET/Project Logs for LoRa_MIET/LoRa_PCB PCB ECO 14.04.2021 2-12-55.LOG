@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=5V_ST Pin=VT3-1
+Removed Pin From Net: NetName=NetC24_1 Pin=VT3-2
+Removed Pin From Net: NetName=NetVD4_2 Pin=VT3-3
+Removed Pin From Net: NetName=GND Pin=XP1-8
+Removed Member From Class: ClassName=LoRa_PCB Member=VT3
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 ê"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 ê"; VariantName = "[No Variations]"
+Added Component: Designator=VT?(SOT23)
+Added Pin To Net: NetName=3V3 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=5V_ST Pin=R?-2
+Added Pin To Net: NetName=USB_P Pin=R?-2
+Added Pin To Net: NetName=5V_ST Pin=VT?-1
+Added Pin To Net: NetName=NetVD4_2 Pin=VT?-2
+Added Pin To Net: NetName=NetC24_1 Pin=VT?-3
+Added Pin To Net: NetName=TFT_BL Pin=DD1-27
+Added Pin To Net: NetName=TFT_BL Pin=XP1-8
+Added Net: Name=TFT_BL
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1.5ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT? IRLML5203TRPBF

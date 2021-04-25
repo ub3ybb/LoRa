@@ -1,0 +1,98 @@
+Removed Pin From Net: NetName=5V_USB Pin=DA?-5
+Removed Pin From Net: NetName=GND Pin=G?-1
+Added Component: Designator=BA?(HPM14A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "HelpURL"; Value = "https://static.chipdip.ru/lib/243/DOC000243438.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1001ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 ך"; VariantName = "[No Variations]"
+Added Component: Designator=VD?(DO-214AC)
+Add component. Clean all parameters for all variants
+Added Component: Designator=VT?(SOT23)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=G?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=TEMP Pin=R?-2
+Added Pin To Net: NetName=GND Pin=VT?-2
+Added Pin To Net: NetName=3V3 Pin=BA?-1
+Added Pin To Net: NetName=3V3 Pin=VD?-2
+Added Net: Name=3V3
+Added Pin To Net: NetName=BUZZER Pin=R?-2
+Added Net: Name=BUZZER
+Added Pin To Net: NetName=NetBA?_2 Pin=BA?-2
+Added Pin To Net: NetName=NetBA?_2 Pin=VD?-1
+Added Pin To Net: NetName=NetBA?_2 Pin=VT?-3
+Added Net: Name=NetBA?_2
+Added Member To Class: ClassName=LoRa_PCB Member=Component BA? HPM14A
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 220
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA? LDO
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA? USBLC6-2SC6
+Added Member To Class: ClassName=LoRa_PCB Member=Component DD? FT232RL
+Added Member To Class: ClassName=LoRa_PCB Member=Component G? FC1-5211
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? GNL-3012ED
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? GNL-3012ED
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? GNL-3012ED
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? GNL-3012ED
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? BL-LS0805PGC
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 33
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 3ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 180
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 220
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 2,2 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 2,2 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 33
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 20ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? Thermo_Resistor
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component SB? KLS7-TS6601
+Added Member To Class: ClassName=LoRa_PCB Member=Component SB? KLS7-TS6601
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD? LL4148-GS08
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD? STTH108A
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT? BC847
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT? BC847
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP? PLS-2
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP? IDC-10
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS2-350-3.50-03P-4S

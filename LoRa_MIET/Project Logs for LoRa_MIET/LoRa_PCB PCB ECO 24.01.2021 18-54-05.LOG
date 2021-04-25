@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=5V_USB Pin=HL1-1
+Removed Pin From Net: NetName=5V_USB Pin=XS2-1
+Removed Pin From Net: NetName=USB_N Pin=XS2-2
+Removed Pin From Net: NetName=USB_P Pin=XS2-3
+Removed Pin From Net: NetName=EXT_GND Pin=XS2-4
+Removed Member From Class: ClassName=Sheet1 Member=SW1
+Removed Member From Class: ClassName=LoRa_PCB Member=XS2
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1001ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 ך"; VariantName = "[No Variations]"
+Added Component: Designator=XS?(KLS1-233-0-0-1-T)
+Added Pin To Net: NetName=5V_USB Pin=R?-2
+Added Pin To Net: NetName=5V_USB Pin=XS?-1
+Added Pin To Net: NetName=USB_N Pin=XS?-2
+Added Pin To Net: NetName=USB_P Pin=XS?-3
+Added Pin To Net: NetName=EXT_GND Pin=XS?-5
+Added Pin To Net: NetName=NetHL1_1 Pin=HL1-1
+Added Pin To Net: NetName=NetHL1_1 Pin=R?-1
+Added Net: Name=NetHL1_1
+Added Member To Class: ClassName=LoRa_PCB Member=Component C3 0,1לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C5 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C6 0,1לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C8 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C11 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C12 22
+Added Member To Class: ClassName=LoRa_PCB Member=Component C15 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C20 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA1 STC4054GR
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA2 MC34063
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL2 BL-HGK36G
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL3 BL-HGK36G
+Added Member To Class: ClassName=LoRa_PCB Member=Component R2 2 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R3 1
+Added Member To Class: ClassName=LoRa_PCB Member=Component R5 3ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R6 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R8 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R9 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R15 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R16 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R17 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R21 33
+Added Member To Class: ClassName=LoRa_PCB Member=Component R23 2,2 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ך
+Added Member To Class: ClassName=Sheet1 Member=Component SW2 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW4 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW5 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW7 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW8 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW10 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW11 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW12 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW14 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW15 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW16 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW18 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW19 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW21 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW23 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW24 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW26 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW27 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW29 KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW31 KLS7-TS6604
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS1-233-0-0-1-T
+Added Room: Name=LoRa_PCB

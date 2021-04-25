@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetC13_1 Pin=ZQ1-1
+Removed Pin From Net: NetName=NetC12_1 Pin=ZQ1-3
+Removed Member From Class: ClassName=LoRa_PCB Member=ZQ1
+Added Component: Designator=ZQ?(MJ CRYSTAL)
+Added Pin To Net: NetName=NetC13_1 Pin=ZQ?-1
+Added Pin To Net: NetName=NetC12_1 Pin=ZQ?-3
+Added Member To Class: ClassName=LoRa_PCB Member=Component ZQ? 8 ÌÃö
+Added Room: Name=LoRa_PCB

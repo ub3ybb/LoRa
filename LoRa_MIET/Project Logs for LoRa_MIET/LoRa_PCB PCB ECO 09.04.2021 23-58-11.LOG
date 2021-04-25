@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=I2C_SCL Pin=XP3-1
+Removed Pin From Net: NetName=I2C_SCL Pin=XP3-1
+Removed Pin From Net: NetName=I2C_SDA Pin=XP3-2
+Removed Pin From Net: NetName=I2C_SDA Pin=XP3-2
+Removed Pin From Net: NetName=GPIO1 Pin=XP3-3
+Removed Pin From Net: NetName=GPIO1 Pin=XP3-3
+Removed Pin From Net: NetName=GPIO2 Pin=XP3-4
+Removed Pin From Net: NetName=GPIO2 Pin=XP3-4
+Removed Pin From Net: NetName=GPIO3 Pin=XP3-5
+Removed Pin From Net: NetName=GPIO3 Pin=XP3-5
+Removed Pin From Net: NetName=GPIO4 Pin=XP3-6
+Removed Pin From Net: NetName=GPIO4 Pin=XP3-6
+Removed Pin From Net: NetName=GPIO5 Pin=XP3-7
+Removed Pin From Net: NetName=GPIO5 Pin=XP3-7
+Removed Pin From Net: NetName=GND Pin=XP3-8
+Removed Pin From Net: NetName=GND Pin=XP3-8
+Removed Member From Class: ClassName=LoRa_PCB Member=XP3
+Change Component Comment : Designator=D1 Old Comment=BC56-12SRWA_1 New Comment=RA-01
+Added Component: Designator=XP?(PLS-8)
+Added Pin To Net: NetName=I2C_SCL Pin=XP?-1
+Added Pin To Net: NetName=I2C_SDA Pin=XP?-2
+Added Pin To Net: NetName=GPIO1 Pin=XP?-3
+Added Pin To Net: NetName=GPIO2 Pin=XP?-4
+Added Pin To Net: NetName=GPIO3 Pin=XP?-5
+Added Pin To Net: NetName=GPIO4 Pin=XP?-6
+Added Pin To Net: NetName=GPIO5 Pin=XP?-7
+Added Pin To Net: NetName=GND Pin=XP?-8
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP? PLS-8

@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=+5V Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=HG1-1
+Removed Pin From Net: NetName=3.3V Pin=HG1-2
+Removed Pin From Net: NetName=GND Pin=HG1-5
+Removed Pin From Net: NetName=3.3V Pin=HG1-15
+Removed Pin From Net: NetName=GND Pin=R12-1
+Removed Pin From Net: NetName=+5V Pin=R12-3
+Removed Pin From Net: NetName=GND Pin=VT3-2
+Removed Member From Class: ClassName=LoRa_PCB Member=HG1
+Removed Member From Class: ClassName=LoRa_PCB Member=R12
+Removed Member From Class: ClassName=LoRa_PCB Member=R16
+Removed Member From Class: ClassName=LoRa_PCB Member=VT3
+Added Component: Designator=XP?(PBS-8)
+Added Pin To Net: NetName=3V3 Pin=C11-2
+Added Pin To Net: NetName=GND Pin=XP?-1
+Added Pin To Net: NetName=3V3 Pin=XP?-2
+Added Pin To Net: NetName=GND Pin=XP?-8
+Added Pin To Net: NetName=TFT_CS Pin=XP?-7
+Added Net: Name=TFT_CS
+Added Pin To Net: NetName=TFT_DS Pin=XP?-6
+Added Net: Name=TFT_DS
+Added Pin To Net: NetName=TFT_RES Pin=XP?-5
+Added Net: Name=TFT_RES
+Added Pin To Net: NetName=TFT_SCL Pin=XP?-3
+Added Net: Name=TFT_SCL
+Added Pin To Net: NetName=TFT_SDA Pin=XP?-4
+Added Net: Name=TFT_SDA
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP? PBS-8
+Added Room: Name=LoRa_PCB

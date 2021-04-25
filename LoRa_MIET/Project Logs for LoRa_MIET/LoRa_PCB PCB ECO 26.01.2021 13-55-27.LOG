@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=3.3V Pin=K1-5
+Removed Member From Class: ClassName=LoRa_PCB Member=K1
+Added Component: Designator=K?(1393219-3)
+Added Component: Designator=K?(1393219-3)
+Added Component: Designator=XS?(KLS12-TL051)
+Added Component: Designator=XS?(KLS12-TL051)
+Added Pin To Net: NetName=3.3V Pin=K?-A2
+Added Pin To Net: NetName=NetK?_11 Pin=K?-11
+Added Pin To Net: NetName=NetK?_11 Pin=XS1-2
+Added Net: Name=NetK?_11
+Added Pin To Net: NetName=NetK?_12 Pin=K?-12
+Added Pin To Net: NetName=NetK?_12 Pin=XS1-1
+Added Net: Name=NetK?_12
+Added Pin To Net: NetName=NetK?_14 Pin=K?-14
+Added Pin To Net: NetName=NetK?_14 Pin=XS1-3
+Added Net: Name=NetK?_14
+Added Pin To Net: NetName=NetK?_A1 Pin=K?-A1
+Added Pin To Net: NetName=NetK?_A1 Pin=VD1-1
+Added Pin To Net: NetName=NetK?_A1 Pin=VT1-3
+Added Net: Name=NetK?_A1
+Added Member To Class: ClassName=LoRa_PCB Member=Component K? 1393219-3
+Added Member To Class: ClassName=LoRa_PCB Member=Component K? 1393219-3
+Added Member To Class: ClassName=Sheet1 Member=Component XS? KLS12-TL051-1x1-G/Y-1-03
+Added Member To Class: ClassName=Sheet1 Member=Component XS? KLS12-TL051-1x1-G/Y-1-03

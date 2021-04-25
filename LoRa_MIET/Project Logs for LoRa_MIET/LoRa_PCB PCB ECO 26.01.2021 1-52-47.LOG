@@ -1,0 +1,5 @@
+Added Component: Designator=DA?(QFN50P300X300X100_HS-15N)
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA? TPS63000DRCR
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS1-233-0-0-1-T
+Added Room: Name=LoRa_PCB
+Added Room: Name=Sheet1

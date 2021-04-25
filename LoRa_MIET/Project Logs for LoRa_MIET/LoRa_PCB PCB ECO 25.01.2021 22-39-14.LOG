@@ -1,0 +1,5 @@
+Added Component: Designator=DD?(LQFP48)
+Added Component: Designator=XS?(KLS12-TL051)
+Added Member To Class: ClassName=LoRa_PCB Member=Component DD? W5500
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS? KLS12-TL051-1x1-G/Y-1-03
+Added Room: Name=LoRa_PCB

@@ -1,0 +1,137 @@
+Removed Pin From Net: NetName=1 Pin=R23-1
+Removed Pin From Net: NetName=3V3 Pin=R23-2
+Removed Pin From Net: NetName=2 Pin=R24-1
+Removed Pin From Net: NetName=3V3 Pin=R24-2
+Removed Pin From Net: NetName=3 Pin=R25-1
+Removed Pin From Net: NetName=3V3 Pin=R25-2
+Removed Pin From Net: NetName=4 Pin=R26-1
+Removed Pin From Net: NetName=3V3 Pin=R26-2
+Removed Pin From Net: NetName=5 Pin=R27-1
+Removed Pin From Net: NetName=3V3 Pin=R27-2
+Removed Member From Class: ClassName=Sheet1 Member=R23
+Removed Member From Class: ClassName=Sheet1 Member=R24
+Removed Member From Class: ClassName=Sheet1 Member=R25
+Removed Member From Class: ClassName=Sheet1 Member=R26
+Removed Member From Class: ClassName=Sheet1 Member=R27
+Change Component DesignItemId : Designator=R1 Old DesignItemId=CR0603-FX-33R0ELF New DesignItemId=CR0805-FX-33R0ELF
+Change Component DesignItemId : Designator=R3 Old DesignItemId=CR0603-FX-33R0ELF New DesignItemId=CR0805-FX-33R0ELF
+Change Component DesignItemId : Designator=R17 Old DesignItemId=CR0603-FX-1001ELF New DesignItemId=CR0805-FX-1001ELF
+Change Component DesignItemId : Designator=R21 Old DesignItemId=CR0603-FX-1001ELF New DesignItemId=CR0805-FX-1001ELF
+Change Component DesignItemId : Designator=R32 Old DesignItemId=CR0603-FX-1001ELF New DesignItemId=CR0805-FX-1001ELF
+Change Component DesignItemId : Designator=R2 Old DesignItemId=CR0603-FX-1002ELF New DesignItemId=CR0805-FX-1001ELF
+Change Component DesignItemId : Designator=R11 Old DesignItemId=CR0603-FX-1002ELF New DesignItemId=CR0805-FX-1001ELF
+Change Component DesignItemId : Designator=R8 Old DesignItemId=CR0603-FX-1002ELF New DesignItemId=CR0805-FX-1002ELF
+Change Component DesignItemId : Designator=R18 Old DesignItemId=CR0603-FX-1002ELF New DesignItemId=CR0805-FX-1002ELF
+Change Component DesignItemId : Designator=R19 Old DesignItemId=CR0603-FX-1002ELF New DesignItemId=CR0805-FX-1002ELF
+Change Component DesignItemId : Designator=R4 Old DesignItemId=CR0603-FX-1002ELF New DesignItemId=CR0805-FX-1501ELF
+Change Component DesignItemId : Designator=R9 Old DesignItemId=CR0603-FX-2001ELF New DesignItemId=CR0805-FX-2001ELF
+Change Component Footprint: Designator=R1 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R2 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R3 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R4 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R8 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R9 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R11 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R17 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R18 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R19 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R21 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Footprint: Designator=R32 Old Footprint=R_0603 New Footprint=R_0805
+Change Component Comment : Designator=R4 Old Comment=1.5ê New Comment=1.5 kOhms
+Change Component Comment : Designator=R2 Old Comment=1ê New Comment=1 kOhms
+Change Component Comment : Designator=R11 Old Comment=1ê New Comment=1 kOhms
+Change Component Comment : Designator=R17 Old Comment=1 ê New Comment=1 kOhms
+Change Component Comment : Designator=R21 Old Comment=1 ê New Comment=1 kOhms
+Change Component Comment : Designator=R32 Old Comment=1 ê New Comment=1 kOhms
+Change Component Comment : Designator=R9 Old Comment=2 ê New Comment=2 kOhms
+Change Component Comment : Designator=R8 Old Comment=10 ê New Comment=10 kOhms
+Change Component Comment : Designator=R18 Old Comment=10 ê New Comment=10 kOhms
+Change Component Comment : Designator=R19 Old Comment=10 ê New Comment=10 kOhms
+Change Component Comment : Designator=R1 Old Comment=33 New Comment=33 Ohms
+Change Component Comment : Designator=R3 Old Comment=33 New Comment=33 Ohms
+Change Component Description : Designator=R17 Old Description=RES SMD 1K OHM 1% 1/10W 0603 New Description=RES SMD 1K OHM 1% 1/8W 0805
+Change Component Description : Designator=R21 Old Description=RES SMD 1K OHM 1% 1/10W 0603 New Description=RES SMD 1K OHM 1% 1/8W 0805
+Change Component Description : Designator=R32 Old Description=RES SMD 1K OHM 1% 1/10W 0603 New Description=RES SMD 1K OHM 1% 1/8W 0805
+Change Component Description : Designator=R9 Old Description=RES SMD 2K OHM 1% 1/10W 0603 New Description=RES SMD 2K OHM 1% 1/8W 0805
+Change Component Description : Designator=R4 Old Description=RES SMD 10K OHM 1% 1/10W 0603 New Description=RES SMD 1.5K OHM 1% 1/8W 0805
+Change Component Description : Designator=R2 Old Description=RES SMD 10K OHM 1% 1/10W 0603 New Description=RES SMD 1K OHM 1% 1/8W 0805
+Change Component Description : Designator=R11 Old Description=RES SMD 10K OHM 1% 1/10W 0603 New Description=RES SMD 1K OHM 1% 1/8W 0805
+Change Component Description : Designator=R8 Old Description=RES SMD 10K OHM 1% 1/10W 0603 New Description=RES SMD 10K OHM 1% 1/8W 0805
+Change Component Description : Designator=R18 Old Description=RES SMD 10K OHM 1% 1/10W 0603 New Description=RES SMD 10K OHM 1% 1/8W 0805
+Change Component Description : Designator=R19 Old Description=RES SMD 10K OHM 1% 1/10W 0603 New Description=RES SMD 10K OHM 1% 1/8W 0805
+Change Component Description : Designator=R1 Old Description=RES SMD 33 OHM 1% 1/10W 0603 New Description=RES SMD 33 OHM 1% 1/8W 0805
+Change Component Description : Designator=R3 Old Description=RES SMD 33 OHM 1% 1/10W 0603 New Description=RES SMD 33 OHM 1% 1/8W 0805
+Change component parameters: Designator = "R1" ("R1"); Footprint = "R_0603"; UniqueID = "\YFKECBAM" ("\YFKECBAM")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-33R0ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "R_0603"; UniqueID = "\EVAIODQL" ("\EVAIODQL")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-33R0ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "R_0603"; UniqueID = "\NUIBTLIM" ("\NUIBTLIM")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1001ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "R_0603"; UniqueID = "\HQLOMGWP" ("\HQLOMGWP")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1501ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "R_0603"; UniqueID = "\HICKCBXD" ("\HICKCBXD")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9" ("R9"); Footprint = "R_0603"; UniqueID = "\WYZLDRUV" ("\WYZLDRUV")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-2001ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11" ("R11"); Footprint = "R_0603"; UniqueID = "\JJHNTJEU" ("\JJHNTJEU")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1001ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17" ("R17"); Footprint = "R_0603"; UniqueID = "\WGQHTDOT" ("\WGQHTDOT")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1001ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18" ("R18"); Footprint = "R_0603"; UniqueID = "\BCLPISUO" ("\BCLPISUO")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "R_0603"; UniqueID = "\QBGPDVMQ" ("\QBGPDVMQ")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21" ("R21"); Footprint = "R_0603"; UniqueID = "\RJDEXZPP" ("\RJDEXZPP")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1001ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R32" ("R32"); Footprint = "R_0603"; UniqueID = "\LVGHSCBL" ("\LVGHSCBL")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CR0805-FX-1001ELF"; VariantName = "[No Variations]"

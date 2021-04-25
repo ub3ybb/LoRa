@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=LoRa_PCB Member=XP3
+Added Component: Designator=XP?(ESC250V-08P)
+Added Member To Class: ClassName=Sheet1 Member=Component C19 6800
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP? ESC250V-08P

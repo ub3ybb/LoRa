@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=BOOT0 Pin=R18-1
+Removed Pin From Net: NetName=PWR_B Pin=R18-2
+Removed Pin From Net: NetName=PWR_B Pin=SW1-1
+Removed Pin From Net: NetName=PWR_B Pin=SW1-1
+Removed Pin From Net: NetName=PWR_B Pin=VD4-1
+Removed Member From Class: ClassName=LoRa_PCB Member=R18
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 ê"; VariantName = "[No Variations]"
+Added Component: Designator=VD?(SOD-80)
+Added Pin To Net: NetName=PWR_B Pin=R?-2
+Added Pin To Net: NetName=BOOT0 Pin=VD?-1
+Added Pin To Net: NetName=PWR_B Pin=VD?-2
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=SW1-1
+Added Pin To Net: NetName=NetR?_1 Pin=SW1-1
+Added Pin To Net: NetName=NetR?_1 Pin=VD4-1
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1.5ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD? BZV55-B3V3,115

@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=3V3 Pin=R14-1
+Removed Pin From Net: NetName=3V3 Pin=R15-1
+Removed Member From Class: ClassName=Sheet1 Member=C19
+Added Component: Designator=C?(C_0805)
+Added Component: Designator=C?(C_0805)
+Added Component: Designator=R?(R_0805)
+Added Component: Designator=XP?(PLD-16)
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=3V3 Pin=R?-2
+Added Pin To Net: NetName=NetR5_1 Pin=XS3-1
+Added Pin To Net: NetName=NetR6_1 Pin=XS3-2
+Added Pin To Net: NetName=NetC18_2 Pin=C18-2
+Added Pin To Net: NetName=NetC18_2 Pin=R?-1
+Added Pin To Net: NetName=NetC18_2 Pin=XS3-3
+Added Net: Name=NetC18_2
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Pin To Net: NetName=NetC20_1 Pin=R12-1
+Added Pin To Net: NetName=NetC20_1 Pin=R14-2
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=NetC20_2 Pin=XS3-8
+Added Net: Name=NetC20_2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R13-1
+Added Pin To Net: NetName=NetC?_1 Pin=R15-2
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=XS3-7
+Added Net: Name=NetC?_2
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 0,1 לך
+Added Member To Class: ClassName=Sheet1 Member=Component C? 0.01
+Added Member To Class: ClassName=Sheet1 Member=Component C? 6800
+Added Member To Class: ClassName=Sheet1 Member=Component R? 10
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP? PLD-16

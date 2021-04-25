@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=3.3V Pin=VD1-2
+Added Component: Designator=XT?(DG128-5.0-02P-14)
+Added Pin To Net: NetName=3V3 Pin=K1-A1
+Added Pin To Net: NetName=3V3 Pin=VD1-2
+Added Pin To Net: NetName=NetK1_A2 Pin=K1-A2
+Added Pin To Net: NetName=NetK1_A2 Pin=VD1-1
+Added Pin To Net: NetName=NetK1_A2 Pin=VT1-3
+Added Net: Name=NetK1_A2
+Added Member To Class: ClassName=LoRa_PCB Member=Component XT? DG128-5.0-02P-14

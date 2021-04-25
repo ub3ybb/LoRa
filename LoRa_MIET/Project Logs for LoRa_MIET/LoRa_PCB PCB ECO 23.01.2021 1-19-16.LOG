@@ -1,0 +1,501 @@
+Removed Pin From Net: NetName=GND Pin=G?-1
+Removed Pin From Net: NetName=TEMP Pin=R?-2
+Change Component Designator: OldDesignator=B? NewDesignator=B1
+Change Component Designator: OldDesignator=BA? NewDesignator=BA1
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=C? NewDesignator=C9
+Change Component Designator: OldDesignator=C? NewDesignator=C10
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=C? NewDesignator=C13
+Change Component Designator: OldDesignator=C? NewDesignator=C14
+Change Component Designator: OldDesignator=C? NewDesignator=C15
+Change Component Designator: OldDesignator=C? NewDesignator=C16
+Change Component Designator: OldDesignator=C? NewDesignator=C17
+Change Component Designator: OldDesignator=C? NewDesignator=C18
+Change Component Designator: OldDesignator=C? NewDesignator=C19
+Change Component Designator: OldDesignator=C? NewDesignator=C20
+Change Component Designator: OldDesignator=C? NewDesignator=C21
+Change Component Designator: OldDesignator=C? NewDesignator=C22
+Change Component Designator: OldDesignator=C? NewDesignator=C23
+Change Component Designator: OldDesignator=C? NewDesignator=C24
+Change Component Designator: OldDesignator=C? NewDesignator=C25
+Change Component Designator: OldDesignator=C? NewDesignator=C26
+Change Component Designator: OldDesignator=DA? NewDesignator=DA1
+Change Component Designator: OldDesignator=DA? NewDesignator=DA2
+Change Component Designator: OldDesignator=DA? NewDesignator=DA3
+Change Component Designator: OldDesignator=DD? NewDesignator=DD1
+Change Component Designator: OldDesignator=DD? NewDesignator=DD2
+Change Component Designator: OldDesignator=G? NewDesignator=G2
+Change Component Designator: OldDesignator=HG? NewDesignator=HG1
+Change Component Designator: OldDesignator=HL? NewDesignator=HL1
+Change Component Designator: OldDesignator=HL? NewDesignator=HL2
+Change Component Designator: OldDesignator=HL? NewDesignator=HL3
+Change Component Designator: OldDesignator=HL? NewDesignator=HL4
+Change Component Designator: OldDesignator=HL? NewDesignator=HL5
+Change Component Designator: OldDesignator=HL? NewDesignator=HL6
+Change Component Designator: OldDesignator=L? NewDesignator=L1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R11
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=R? NewDesignator=R14
+Change Component Designator: OldDesignator=R? NewDesignator=R15
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change Component Designator: OldDesignator=R? NewDesignator=R17
+Change Component Designator: OldDesignator=R? NewDesignator=R18
+Change Component Designator: OldDesignator=R? NewDesignator=R19
+Change Component Designator: OldDesignator=R? NewDesignator=R20
+Change Component Designator: OldDesignator=R? NewDesignator=R21
+Change Component Designator: OldDesignator=R? NewDesignator=R22
+Change Component Designator: OldDesignator=R? NewDesignator=R23
+Change Component Designator: OldDesignator=R? NewDesignator=R24
+Change Component Designator: OldDesignator=R? NewDesignator=R25
+Change Component Designator: OldDesignator=R? NewDesignator=R26
+Change Component Designator: OldDesignator=R? NewDesignator=R27
+Change Component Designator: OldDesignator=SB? NewDesignator=SB1
+Change Component Designator: OldDesignator=SB? NewDesignator=SB2
+Change Component Designator: OldDesignator=SB? NewDesignator=SB3
+Change Component Designator: OldDesignator=SB? NewDesignator=SB4
+Change Component Designator: OldDesignator=VD? NewDesignator=VD1
+Change Component Designator: OldDesignator=VD? NewDesignator=VD2
+Change Component Designator: OldDesignator=VD? NewDesignator=VD3
+Change Component Designator: OldDesignator=VT? NewDesignator=VT1
+Change Component Designator: OldDesignator=VT? NewDesignator=VT2
+Change Component Designator: OldDesignator=VT? NewDesignator=VT3
+Change Component Designator: OldDesignator=XP? NewDesignator=XP1
+Change Component Designator: OldDesignator=XP? NewDesignator=XP2
+Change Component Designator: OldDesignator=XP? NewDesignator=XP3
+Change Component Designator: OldDesignator=XS? NewDesignator=XS1
+Change Component Designator: OldDesignator=XS? NewDesignator=XS2
+Change Component Designator: OldDesignator=XW? NewDesignator=XW1
+Added Component: Designator=R28(R_0805)
+Added Component: Designator=R29(R_0805)
+Added Component: Designator=R30(R_0805)
+Added Component: Designator=R31(R_0805)
+Added Component: Designator=R32(R_0805)
+Added Component: Designator=R33(R_0805)
+Added Component: Designator=R34(R_0805)
+Added Component: Designator=R35(R_0805)
+Added Component: Designator=R36(R_0805)
+Added Component: Designator=R37(R_0805)
+Added Component: Designator=R38(R_0805)
+Added Component: Designator=R39(R_0805)
+Added Component: Designator=R40(R_0805)
+Added Component: Designator=R41(R_0805)
+Added Component: Designator=R42(R_0805)
+Added Component: Designator=R43(R_0805)
+Added Component: Designator=R44(R_0805)
+Added Component: Designator=R45(R_0805)
+Added Component: Designator=R46(R_0805)
+Added Component: Designator=R47(R_0805)
+Added Component: Designator=R48(R_0805)
+Added Component: Designator=R49(R_0805)
+Added Component: Designator=R50(R_0805)
+Added Component: Designator=R51(R_0805)
+Added Component: Designator=R52(R_0805)
+Added Component: Designator=R53(R_0805)
+Added Component: Designator=R54(R_0805)
+Added Component: Designator=R55(R_0805)
+Added Component: Designator=R56(R_0805)
+Added Component: Designator=SB5(KLS7-TS6601)
+Added Component: Designator=SB6(KLS7-TS6601)
+Added Component: Designator=SB7(KLS7-TS6601)
+Added Component: Designator=SB8(KLS7-TS6601)
+Added Component: Designator=SB9(KLS7-TS6601)
+Added Component: Designator=SB10(KLS7-TS6601)
+Added Component: Designator=SB11(KLS7-TS6601)
+Added Component: Designator=SB12(KLS7-TS6601)
+Added Component: Designator=SB13(KLS7-TS6601)
+Added Component: Designator=SB14(KLS7-TS6601)
+Added Component: Designator=SB15(KLS7-TS6601)
+Added Component: Designator=SB16(KLS7-TS6601)
+Added Component: Designator=SB17(KLS7-TS6601)
+Added Component: Designator=SB18(KLS7-TS6601)
+Added Component: Designator=SB19(KLS7-TS6601)
+Added Component: Designator=SB20(KLS7-TS6601)
+Added Component: Designator=SB21(KLS7-TS6601)
+Added Component: Designator=SB22(KLS7-TS6601)
+Added Component: Designator=SB23(KLS7-TS6601)
+Added Component: Designator=SB24(KLS7-TS6601)
+Added Component: Designator=SB25(KLS7-TS6601)
+Added Component: Designator=SB26(KLS7-TS6601)
+Added Component: Designator=SB27(KLS7-TS6601)
+Added Component: Designator=SB28(KLS7-TS6601)
+Added Component: Designator=SB29(KLS7-TS6601)
+Added Component: Designator=SB30(KLS7-TS6601)
+Added Component: Designator=SB31(KLS7-TS6601)
+Added Component: Designator=SB32(KLS7-TS6601)
+Added Component: Designator=SB33(KLS7-TS6601)
+Added Pin To Net: NetName=NetC?_1 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=HG1-1
+Added Pin To Net: NetName=3.3V Pin=HG1-2
+Added Pin To Net: NetName=GND Pin=HG1-5
+Added Pin To Net: NetName=3.3V Pin=HG1-15
+Added Pin To Net: NetName=NetC?_1 Pin=R9-1
+Added Pin To Net: NetName=BUT_1 Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=GND Pin=R29-1
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=GND Pin=R31-1
+Added Pin To Net: NetName=GND Pin=R32-1
+Added Pin To Net: NetName=GND Pin=R33-1
+Added Pin To Net: NetName=GND Pin=R34-1
+Added Pin To Net: NetName=GND Pin=R35-1
+Added Pin To Net: NetName=GND Pin=R36-1
+Added Pin To Net: NetName=GND Pin=R37-1
+Added Pin To Net: NetName=GND Pin=R38-1
+Added Pin To Net: NetName=GND Pin=R39-1
+Added Pin To Net: NetName=GND Pin=R40-1
+Added Pin To Net: NetName=GND Pin=R41-1
+Added Pin To Net: NetName=GND Pin=R42-1
+Added Pin To Net: NetName=GND Pin=R43-1
+Added Pin To Net: NetName=GND Pin=R44-1
+Added Pin To Net: NetName=GND Pin=R45-1
+Added Pin To Net: NetName=GND Pin=R46-1
+Added Pin To Net: NetName=GND Pin=R47-1
+Added Pin To Net: NetName=GND Pin=R48-1
+Added Pin To Net: NetName=GND Pin=R49-1
+Added Pin To Net: NetName=GND Pin=R50-1
+Added Pin To Net: NetName=GND Pin=R51-1
+Added Pin To Net: NetName=GND Pin=R52-1
+Added Pin To Net: NetName=GND Pin=R53-1
+Added Pin To Net: NetName=GND Pin=R54-1
+Added Pin To Net: NetName=GND Pin=R55-1
+Added Pin To Net: NetName=GND Pin=R56-1
+Added Pin To Net: NetName=3.3V Pin=SB5-1
+Added Pin To Net: NetName=3.3V Pin=SB5-1
+Added Pin To Net: NetName=3.3V Pin=SB6-1
+Added Pin To Net: NetName=3.3V Pin=SB6-1
+Added Pin To Net: NetName=3.3V Pin=SB7-1
+Added Pin To Net: NetName=3.3V Pin=SB7-1
+Added Pin To Net: NetName=3.3V Pin=SB8-1
+Added Pin To Net: NetName=3.3V Pin=SB8-1
+Added Pin To Net: NetName=3.3V Pin=SB9-1
+Added Pin To Net: NetName=3.3V Pin=SB9-1
+Added Pin To Net: NetName=3.3V Pin=SB10-1
+Added Pin To Net: NetName=3.3V Pin=SB10-1
+Added Pin To Net: NetName=3.3V Pin=SB11-1
+Added Pin To Net: NetName=3.3V Pin=SB11-1
+Added Pin To Net: NetName=3.3V Pin=SB12-1
+Added Pin To Net: NetName=3.3V Pin=SB12-1
+Added Pin To Net: NetName=3.3V Pin=SB13-1
+Added Pin To Net: NetName=3.3V Pin=SB13-1
+Added Pin To Net: NetName=3.3V Pin=SB14-1
+Added Pin To Net: NetName=3.3V Pin=SB14-1
+Added Pin To Net: NetName=3.3V Pin=SB15-1
+Added Pin To Net: NetName=3.3V Pin=SB15-1
+Added Pin To Net: NetName=3.3V Pin=SB16-1
+Added Pin To Net: NetName=3.3V Pin=SB16-1
+Added Pin To Net: NetName=3.3V Pin=SB17-1
+Added Pin To Net: NetName=3.3V Pin=SB17-1
+Added Pin To Net: NetName=3.3V Pin=SB18-1
+Added Pin To Net: NetName=3.3V Pin=SB18-1
+Added Pin To Net: NetName=3.3V Pin=SB19-1
+Added Pin To Net: NetName=3.3V Pin=SB19-1
+Added Pin To Net: NetName=3.3V Pin=SB20-1
+Added Pin To Net: NetName=3.3V Pin=SB20-1
+Added Pin To Net: NetName=3.3V Pin=SB21-1
+Added Pin To Net: NetName=3.3V Pin=SB21-1
+Added Pin To Net: NetName=3.3V Pin=SB22-1
+Added Pin To Net: NetName=3.3V Pin=SB22-1
+Added Pin To Net: NetName=3.3V Pin=SB23-1
+Added Pin To Net: NetName=3.3V Pin=SB23-1
+Added Pin To Net: NetName=3.3V Pin=SB24-1
+Added Pin To Net: NetName=3.3V Pin=SB24-1
+Added Pin To Net: NetName=3.3V Pin=SB25-1
+Added Pin To Net: NetName=3.3V Pin=SB25-1
+Added Pin To Net: NetName=3.3V Pin=SB26-1
+Added Pin To Net: NetName=3.3V Pin=SB26-1
+Added Pin To Net: NetName=3.3V Pin=SB27-1
+Added Pin To Net: NetName=3.3V Pin=SB27-1
+Added Pin To Net: NetName=3.3V Pin=SB28-1
+Added Pin To Net: NetName=3.3V Pin=SB28-1
+Added Pin To Net: NetName=3.3V Pin=SB29-1
+Added Pin To Net: NetName=3.3V Pin=SB29-1
+Added Pin To Net: NetName=3.3V Pin=SB30-1
+Added Pin To Net: NetName=3.3V Pin=SB30-1
+Added Pin To Net: NetName=3.3V Pin=SB31-1
+Added Pin To Net: NetName=3.3V Pin=SB31-1
+Added Pin To Net: NetName=3.3V Pin=SB32-1
+Added Pin To Net: NetName=3.3V Pin=SB32-1
+Added Pin To Net: NetName=3.3V Pin=SB33-1
+Added Pin To Net: NetName=3.3V Pin=SB33-1
+Change Net Name : Old Net Name=NetB?_1 New Net Name=NetB1_1
+Change Net Name : Old Net Name=NetBA?_2 New Net Name=NetBA1_2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=+3..4.2V
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC2_2
+Change Net Name : Old Net Name=NetDA?_1 New Net Name=NetDA1_1
+Change Net Name : Old Net Name=NetDA?_4 New Net Name=NetDA3_4
+Change Net Name : Old Net Name=NetDA?_5 New Net Name=NetDA1_5
+Change Net Name : Old Net Name=NetDA?_6 New Net Name=NetDA3_6
+Change Net Name : Old Net Name=NetDA?_8 New Net Name=NetDA1_8
+Change Net Name : Old Net Name=NetDD?_1 New Net Name=NetDD2_1
+Change Net Name : Old Net Name=NetDD?_5 New Net Name=NetDD2_5
+Change Net Name : Old Net Name=NetDD?_15 New Net Name=NetDD2_15
+Change Net Name : Old Net Name=NetDD?_16 New Net Name=NetDD2_16
+Change Net Name : Old Net Name=NetDD?_22 New Net Name=NetDD2_22
+Change Net Name : Old Net Name=NetDD?_23 New Net Name=NetDD2_23
+Change Net Name : Old Net Name=NetHL?_1 New Net Name=NetHL3_1
+Change Net Name : Old Net Name=NetHL?_2 New Net Name=NetHL1_2
+Change Net Name : Old Net Name=NetL?_1 New Net Name=NetL1_1
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR20_1
+Added Pin To Net: NetName=, Pin=R54-2
+Added Pin To Net: NetName=, Pin=SB31-2
+Added Pin To Net: NetName=, Pin=SB31-2
+Added Net: Name=,
+Added Pin To Net: NetName=. Pin=R55-2
+Added Pin To Net: NetName=. Pin=SB32-2
+Added Pin To Net: NetName=. Pin=SB32-2
+Added Net: Name=.
+Added Pin To Net: NetName=_ Pin=R56-2
+Added Pin To Net: NetName=_ Pin=SB33-2
+Added Pin To Net: NetName=_ Pin=SB33-2
+Added Net: Name=_
+Added Pin To Net: NetName=a Pin=R38-2
+Added Pin To Net: NetName=a Pin=SB15-2
+Added Pin To Net: NetName=a Pin=SB15-2
+Added Net: Name=a
+Added Pin To Net: NetName=b Pin=R51-2
+Added Pin To Net: NetName=b Pin=SB28-2
+Added Pin To Net: NetName=b Pin=SB28-2
+Added Net: Name=b
+Added Pin To Net: NetName=c Pin=R49-2
+Added Pin To Net: NetName=c Pin=SB26-2
+Added Pin To Net: NetName=c Pin=SB26-2
+Added Net: Name=c
+Added Pin To Net: NetName=d Pin=R40-2
+Added Pin To Net: NetName=d Pin=SB17-2
+Added Pin To Net: NetName=d Pin=SB17-2
+Added Net: Name=d
+Added Pin To Net: NetName=e Pin=R30-2
+Added Pin To Net: NetName=e Pin=SB7-2
+Added Pin To Net: NetName=e Pin=SB7-2
+Added Net: Name=e
+Added Pin To Net: NetName=f Pin=R41-2
+Added Pin To Net: NetName=f Pin=SB18-2
+Added Pin To Net: NetName=f Pin=SB18-2
+Added Net: Name=f
+Added Pin To Net: NetName=g Pin=R42-2
+Added Pin To Net: NetName=g Pin=SB19-2
+Added Pin To Net: NetName=g Pin=SB19-2
+Added Net: Name=g
+Added Pin To Net: NetName=h Pin=R43-2
+Added Pin To Net: NetName=h Pin=SB20-2
+Added Pin To Net: NetName=h Pin=SB20-2
+Added Net: Name=h
+Added Pin To Net: NetName=i Pin=R35-2
+Added Pin To Net: NetName=i Pin=SB12-2
+Added Pin To Net: NetName=i Pin=SB12-2
+Added Net: Name=i
+Added Pin To Net: NetName=j Pin=R44-2
+Added Pin To Net: NetName=j Pin=SB21-2
+Added Pin To Net: NetName=j Pin=SB21-2
+Added Net: Name=j
+Added Pin To Net: NetName=k Pin=R45-2
+Added Pin To Net: NetName=k Pin=SB22-2
+Added Pin To Net: NetName=k Pin=SB22-2
+Added Net: Name=k
+Added Pin To Net: NetName=LCD_A0 Pin=HG1-4
+Added Net: Name=LCD_A0
+Added Pin To Net: NetName=LCD_DB4 Pin=HG1-11
+Added Net: Name=LCD_DB4
+Added Pin To Net: NetName=LCD_DB5 Pin=HG1-12
+Added Net: Name=LCD_DB5
+Added Pin To Net: NetName=LCD_DB6 Pin=HG1-13
+Added Net: Name=LCD_DB6
+Added Pin To Net: NetName=LCD_DB7 Pin=HG1-14
+Added Net: Name=LCD_DB7
+Added Pin To Net: NetName=LCD_E Pin=HG1-6
+Added Net: Name=LCD_E
+Added Pin To Net: NetName=l Pin=R46-2
+Added Pin To Net: NetName=l Pin=SB23-2
+Added Pin To Net: NetName=l Pin=SB23-2
+Added Net: Name=l
+Added Pin To Net: NetName=m Pin=R53-2
+Added Pin To Net: NetName=m Pin=SB30-2
+Added Pin To Net: NetName=m Pin=SB30-2
+Added Net: Name=m
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Net: Name=NetC16_1
+Added Pin To Net: NetName=NetC17_1 Pin=C17-1
+Added Net: Name=NetC17_1
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=NetC21_2 Pin=DD2-17
+Added Net: Name=NetC21_2
+Added Pin To Net: NetName=NetD1_2 Pin=R3-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD1_6 Pin=R5-1
+Added Net: Name=NetD1_6
+Added Pin To Net: NetName=NetD1_7 Pin=R4-1
+Added Net: Name=NetD1_7
+Added Pin To Net: NetName=NetHG1_3 Pin=HG1-3
+Added Pin To Net: NetName=NetHG1_3 Pin=R15-2
+Added Net: Name=NetHG1_3
+Added Pin To Net: NetName=NetHG1_16 Pin=HG1-16
+Added Pin To Net: NetName=NetHG1_16 Pin=VT3-3
+Added Net: Name=NetHG1_16
+Added Pin To Net: NetName=NetHL2_2 Pin=HL2-2
+Added Pin To Net: NetName=NetHL2_2 Pin=R5-2
+Added Net: Name=NetHL2_2
+Added Pin To Net: NetName=NetHL4_1 Pin=HL4-1
+Added Pin To Net: NetName=NetHL4_1 Pin=R17-2
+Added Net: Name=NetHL4_1
+Added Pin To Net: NetName=NetHL5_1 Pin=HL5-1
+Added Pin To Net: NetName=NetHL5_1 Pin=R26-1
+Added Net: Name=NetHL5_1
+Added Pin To Net: NetName=NetHL6_1 Pin=HL6-1
+Added Pin To Net: NetName=NetHL6_1 Pin=R27-1
+Added Net: Name=NetHL6_1
+Added Pin To Net: NetName=NetK1_1 Pin=XS1-2
+Added Net: Name=NetK1_1
+Added Pin To Net: NetName=NetK1_2 Pin=VD1-1
+Added Pin To Net: NetName=NetK1_2 Pin=VT1-3
+Added Net: Name=NetK1_2
+Added Pin To Net: NetName=NetK1_3 Pin=XS1-3
+Added Net: Name=NetK1_3
+Added Pin To Net: NetName=NetK1_4 Pin=XS1-1
+Added Net: Name=NetK1_4
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=VT1-1
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=VT2-1
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=n Pin=R52-2
+Added Pin To Net: NetName=n Pin=SB29-2
+Added Pin To Net: NetName=n Pin=SB29-2
+Added Net: Name=n
+Added Pin To Net: NetName=o Pin=R36-2
+Added Pin To Net: NetName=o Pin=SB13-2
+Added Pin To Net: NetName=o Pin=SB13-2
+Added Net: Name=o
+Added Pin To Net: NetName=p Pin=R37-2
+Added Pin To Net: NetName=p Pin=SB14-2
+Added Pin To Net: NetName=p Pin=SB14-2
+Added Net: Name=p
+Added Pin To Net: NetName=q Pin=R28-2
+Added Pin To Net: NetName=q Pin=SB5-2
+Added Pin To Net: NetName=q Pin=SB5-2
+Added Net: Name=q
+Added Pin To Net: NetName=r Pin=R31-2
+Added Pin To Net: NetName=r Pin=SB8-2
+Added Pin To Net: NetName=r Pin=SB8-2
+Added Net: Name=r
+Added Pin To Net: NetName=s Pin=R39-2
+Added Pin To Net: NetName=s Pin=SB16-2
+Added Pin To Net: NetName=s Pin=SB16-2
+Added Net: Name=s
+Added Pin To Net: NetName=t Pin=R32-2
+Added Pin To Net: NetName=t Pin=SB9-2
+Added Pin To Net: NetName=t Pin=SB9-2
+Added Net: Name=t
+Added Pin To Net: NetName=u Pin=R34-2
+Added Pin To Net: NetName=u Pin=SB11-2
+Added Pin To Net: NetName=u Pin=SB11-2
+Added Net: Name=u
+Added Pin To Net: NetName=v Pin=R50-2
+Added Pin To Net: NetName=v Pin=SB27-2
+Added Pin To Net: NetName=v Pin=SB27-2
+Added Net: Name=v
+Added Pin To Net: NetName=w Pin=R29-2
+Added Pin To Net: NetName=w Pin=SB6-2
+Added Pin To Net: NetName=w Pin=SB6-2
+Added Net: Name=w
+Added Pin To Net: NetName=x Pin=R48-2
+Added Pin To Net: NetName=x Pin=SB25-2
+Added Pin To Net: NetName=x Pin=SB25-2
+Added Net: Name=x
+Added Pin To Net: NetName=y Pin=R33-2
+Added Pin To Net: NetName=y Pin=SB10-2
+Added Pin To Net: NetName=y Pin=SB10-2
+Added Net: Name=y
+Added Pin To Net: NetName=z Pin=R47-2
+Added Pin To Net: NetName=z Pin=SB24-2
+Added Pin To Net: NetName=z Pin=SB24-2
+Added Net: Name=z
+Added Class: Name=Sheet1
+Added Member To Class: ClassName=LoRa_PCB Member=Component C1 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C2 220
+Added Member To Class: ClassName=LoRa_PCB Member=Component C3 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C4 0,1לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C5 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C6 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C7 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C8 0,1לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C9 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C10 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C11 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C12 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C13 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C14 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C15 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C16 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C17 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C18 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C19 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C21 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C22 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C23 10 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C24 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C25 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component C26 0,1 לך
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA1 MC34063
+Added Member To Class: ClassName=LoRa_PCB Member=Component DA3 USBLC6-2SC6
+Added Member To Class: ClassName=LoRa_PCB Member=Component DD2 FT232RL
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL1 GNL-3012ED
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL3 GNL-3012ED
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL4 GNL-3012ED
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL5 BL-LS0805PGC
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL6 BL-LS0805PGC
+Added Member To Class: ClassName=LoRa_PCB Member=Component R1 180
+Added Member To Class: ClassName=LoRa_PCB Member=Component R2 1
+Added Member To Class: ClassName=LoRa_PCB Member=Component R3 220
+Added Member To Class: ClassName=LoRa_PCB Member=Component R4 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R6 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R7 3ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R8 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R9 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R10 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R11 1ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R12 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R14 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R15 20ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R16 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R17 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R18 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R19 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R20 1 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R21 33
+Added Member To Class: ClassName=LoRa_PCB Member=Component R22 10
+Added Member To Class: ClassName=LoRa_PCB Member=Component R23 10
+Added Member To Class: ClassName=LoRa_PCB Member=Component R24 33
+Added Member To Class: ClassName=LoRa_PCB Member=Component R25 10 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R26 2,2 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component R27 2,2 ך
+Added Member To Class: ClassName=LoRa_PCB Member=Component SB1 KLS7-TS6601
+Added Member To Class: ClassName=LoRa_PCB Member=Component SB2 KLS7-TS6601
+Added Member To Class: ClassName=LoRa_PCB Member=Component SB3 KLS7-TS6601
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD1 LL4148-GS08
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD3 STTH108A
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT2 BC847
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT3 BC847
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP2 IDC-10
+Added Member To Class: ClassName=LoRa_PCB Member=Component XP3 PLS-2
+Added Member To Class: ClassName=LoRa_PCB Member=Component XS2 292304-2
+Added Room: Name=Sheet1

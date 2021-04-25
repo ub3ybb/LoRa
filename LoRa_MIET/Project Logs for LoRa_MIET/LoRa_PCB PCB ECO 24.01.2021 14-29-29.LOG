@@ -1,0 +1,152 @@
+Removed Pin From Net: NetName=3.3V Pin=C13-2
+Removed Pin From Net: NetName=3.3V Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=C16-2
+Removed Pin From Net: NetName=GND Pin=C17-2
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=RESET Pin=C18-2
+Removed Pin From Net: NetName=3.3V Pin=C19-2
+Removed Pin From Net: NetName=GND Pin=HL3-2
+Removed Pin From Net: NetName=GND Pin=HL4-2
+Removed Pin From Net: NetName=GND Pin=R14-1
+Removed Pin From Net: NetName=GND Pin=R18-1
+Removed Pin From Net: NetName=RESET Pin=R19-1
+Removed Pin From Net: NetName=3.3V Pin=R19-2
+Removed Pin From Net: NetName=GND Pin=R25-1
+Removed Pin From Net: NetName=3.3V Pin=SB1-1
+Removed Pin From Net: NetName=3.3V Pin=SB1-1
+Removed Pin From Net: NetName=3.3V Pin=SB2-1
+Removed Pin From Net: NetName=3.3V Pin=SB2-1
+Removed Pin From Net: NetName=RESET Pin=SB3-1
+Removed Pin From Net: NetName=RESET Pin=SB3-1
+Removed Pin From Net: NetName=GND Pin=SB3-2
+Removed Pin From Net: NetName=GND Pin=SB3-2
+Removed Pin From Net: NetName=3.3V Pin=SB4-1
+Removed Pin From Net: NetName=3.3V Pin=SB4-1
+Removed Pin From Net: NetName=NetBA1_2 Pin=VD3-1
+Removed Pin From Net: NetName=3V3 Pin=VD3-2
+Removed Member From Class: ClassName=LoRa_PCB Member=C13
+Removed Member From Class: ClassName=LoRa_PCB Member=C15
+Removed Member From Class: ClassName=LoRa_PCB Member=C16
+Removed Member From Class: ClassName=LoRa_PCB Member=C17
+Removed Member From Class: ClassName=LoRa_PCB Member=C18
+Removed Member From Class: ClassName=LoRa_PCB Member=C19
+Removed Member From Class: ClassName=LoRa_PCB Member=HL3
+Removed Member From Class: ClassName=LoRa_PCB Member=HL4
+Removed Member From Class: ClassName=LoRa_PCB Member=R14
+Removed Member From Class: ClassName=LoRa_PCB Member=R16
+Removed Member From Class: ClassName=LoRa_PCB Member=R17
+Removed Member From Class: ClassName=LoRa_PCB Member=R18
+Removed Member From Class: ClassName=LoRa_PCB Member=R19
+Removed Member From Class: ClassName=LoRa_PCB Member=R25
+Removed Member From Class: ClassName=LoRa_PCB Member=SB1
+Removed Member From Class: ClassName=LoRa_PCB Member=SB2
+Removed Member From Class: ClassName=LoRa_PCB Member=SB3
+Removed Member From Class: ClassName=LoRa_PCB Member=SB4
+Removed Member From Class: ClassName=LoRa_PCB Member=VD3
+Added Component: Designator=C?(C_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Capasitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM1885C1H220FA01J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Capasitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM1885C1H220FA01J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=HL?(LED_0603_GREEN)
+Added Component: Designator=HL?(LED_0603_GREEN)
+Added Component: Designator=HL?(LED_0603_GREEN)
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1001ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 ê"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1001ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 ê"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 ê"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1001ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 ê"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R_0603)
+Add component (AddParameter): Name = "Component Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CR0603-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 ê"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=SW?(KLS7-TS6604-5.0-180-B)
+Added Component: Designator=VD?(SOD-80)
+Added Component: Designator=VD?(SOD-80)
+Added Component: Designator=VT?(SOT23)
+Added Component: Designator=ZQ?(MJ CRYSTAL)
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=HL?-2
+Added Pin To Net: NetName=GND Pin=HL?-2
+Added Pin To Net: NetName=GND Pin=HL?-2
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=d Pin=SW?-1
+Added Pin To Net: NetName=d Pin=SW?-1
+Added Pin To Net: NetName=2 Pin=SW?-2
+Added Pin To Net: NetName=2 Pin=SW?-2
+Added Pin To Net: NetName=NetBA1_2 Pin=VD?-1
+Added Pin To Net: NetName=3V3 Pin=VD?-2
+Added Pin To Net: NetName=3V3 Pin=VD?-2
+Added Pin To Net: NetName=3V3 Pin=VT?-3
+Added Pin To Net: NetName=CELL Pin=R?-1
+Added Pin To Net: NetName=CELL Pin=SW?-2
+Added Pin To Net: NetName=CELL Pin=SW?-2
+Added Pin To Net: NetName=CELL Pin=VT?-2
+Added Net: Name=CELL
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=ZQ?-1
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetHL?_1 Pin=HL?-1
+Added Pin To Net: NetName=NetHL?_1 Pin=R?-1
+Added Net: Name=NetHL?_1
+Added Pin To Net: NetName=PWR_B Pin=R?-2
+Added Pin To Net: NetName=PWR_B Pin=SW?-1
+Added Pin To Net: NetName=PWR_B Pin=SW?-1
+Added Pin To Net: NetName=PWR_B Pin=VD?-1
+Added Net: Name=PWR_B
+Added Pin To Net: NetName=PWR Pin=R?-2
+Added Pin To Net: NetName=PWR Pin=VT?-1
+Added Net: Name=PWR
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 22
+Added Member To Class: ClassName=LoRa_PCB Member=Component C? 22
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? BL-HGK36G
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? BL-HGK36G
+Added Member To Class: ClassName=LoRa_PCB Member=Component HL? BL-HGK36G
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1 ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 10 ê
+Added Member To Class: ClassName=LoRa_PCB Member=Component SW? KLS7-TS6604
+Added Member To Class: ClassName=Sheet1 Member=Component SW? KLS7-TS6604
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD? LL4148-GS08
+Added Member To Class: ClassName=LoRa_PCB Member=Component VD? LL4148-GS08
+Added Member To Class: ClassName=LoRa_PCB Member=Component VT? IRLML5203TRPBF
+Added Member To Class: ClassName=LoRa_PCB Member=Component ZQ? 8 ÌÃö

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=R3-2
+Removed Member From Class: ClassName=LoRa_PCB Member=R3
+Added Pin To Net: NetName=GND Pin=DD1-60
+Change Net Name : Old Net Name=GND New Net Name=BOOT0
+Added Member To Class: ClassName=LoRa_PCB Member=Component R? 1ê

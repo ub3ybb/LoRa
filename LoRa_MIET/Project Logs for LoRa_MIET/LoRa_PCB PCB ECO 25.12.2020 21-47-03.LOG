@@ -1,0 +1,311 @@
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(B_case)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(B_case)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(B_case)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(B_case)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=DA?(SOT-23-6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "HelpURL"; Value = "https://static.chipdip.ru/lib/093/DOC001093117.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=DA?(NCP114)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.terraelectronica.ru/pdf/show?pdf_file=http%253A%252F%252Fwww.farnell.com%252Fdatasheets%252F2118270.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=DA?(SO-8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=DD?(LQFP48)
+Add component. Clean all parameters for all variants
+Added Component: Designator=HG?(WH1602B)
+Add component. Clean all parameters for all variants
+Added Component: Designator=HL?(GNL-3012ED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=HL?(GNL-3012ED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=HL?(GNL-3012ED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=HL?(GNL-3012ED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=L?(SDR0604)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(3296W)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R_0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SB?(KLS7-TS6601)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SB?(KLS7-TS6601)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SB?(KLS7-TS6601)
+Add component. Clean all parameters for all variants
+Added Component: Designator=VD?(SOD-80)
+Add component. Clean all parameters for all variants
+Added Component: Designator=VD?(SOD-80)
+Add component. Clean all parameters for all variants
+Added Component: Designator=VT?(SOT23)
+Add component. Clean all parameters for all variants
+Added Component: Designator=VT?(SOT23)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XP?(IDC-10)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XP?(PLD-10)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XP?(PLS-2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XS?(KLS1-233-0-0-1-T)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XS?(KLS2-350-3.50-03P-4S)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+5V Pin=C?-1
+Added Pin To Net: NetName=+5V Pin=C?-2
+Added Pin To Net: NetName=+5V Pin=C?-2
+Added Pin To Net: NetName=+5V Pin=DA?-1
+Added Pin To Net: NetName=+5V Pin=R?-1
+Added Pin To Net: NetName=+5V Pin=R?-3
+Added Pin To Net: NetName=+5V Pin=VD?-2
+Added Net: Name=+5V
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=DA?-5
+Added Pin To Net: NetName=3.3V Pin=R?-1
+Added Pin To Net: NetName=3.3V Pin=R?-2
+Added Pin To Net: NetName=3.3V Pin=SB?-1
+Added Pin To Net: NetName=3.3V Pin=SB?-1
+Added Pin To Net: NetName=3.3V Pin=SB?-1
+Added Pin To Net: NetName=3.3V Pin=SB?-1
+Added Pin To Net: NetName=3.3V Pin=VD?-2
+Added Net: Name=3.3V
+Added Pin To Net: NetName=5V_USB Pin=C?-1
+Added Pin To Net: NetName=5V_USB Pin=DA?-5
+Added Pin To Net: NetName=5V_USB Pin=HL?-1
+Added Pin To Net: NetName=5V_USB Pin=HL?-1
+Added Pin To Net: NetName=5V_USB Pin=XS?-1
+Added Net: Name=5V_USB
+Added Pin To Net: NetName=BL_E Pin=R?-2
+Added Net: Name=BL_E
+Added Pin To Net: NetName=BOOT0 Pin=XP?-1
+Added Net: Name=BOOT0
+Added Pin To Net: NetName=BUT_2 Pin=C?-1
+Added Pin To Net: NetName=BUT_2 Pin=R?-2
+Added Pin To Net: NetName=BUT_2 Pin=SB?-2
+Added Pin To Net: NetName=BUT_2 Pin=SB?-2
+Added Net: Name=BUT_2
+Added Pin To Net: NetName=BUT_3 Pin=C?-1
+Added Pin To Net: NetName=BUT_3 Pin=R?-2
+Added Pin To Net: NetName=BUT_3 Pin=SB?-2
+Added Pin To Net: NetName=BUT_3 Pin=SB?-2
+Added Net: Name=BUT_3
+Added Pin To Net: NetName=Cell_Voltage Pin=C?-2
+Added Pin To Net: NetName=Cell_Voltage Pin=R?-1
+Added Pin To Net: NetName=Cell_Voltage Pin=R?-2
+Added Net: Name=Cell_Voltage
+Added Pin To Net: NetName=D+ Pin=DA?-1
+Added Pin To Net: NetName=D+ Pin=DA?-6
+Added Pin To Net: NetName=D+ Pin=R?-2
+Added Net: Name=D+
+Added Pin To Net: NetName=D- Pin=DA?-3
+Added Pin To Net: NetName=D- Pin=DA?-4
+Added Pin To Net: NetName=D- Pin=R?-2
+Added Net: Name=D-
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=DA?-2
+Added Pin To Net: NetName=GND Pin=DA?-2
+Added Pin To Net: NetName=GND Pin=DA?-2
+Added Pin To Net: NetName=GND Pin=DA?-4
+Added Pin To Net: NetName=GND Pin=HL?-2
+Added Pin To Net: NetName=GND Pin=HL?-2
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=SB?-2
+Added Pin To Net: NetName=GND Pin=SB?-2
+Added Pin To Net: NetName=GND Pin=VT?-2
+Added Pin To Net: NetName=GND Pin=VT?-2
+Added Pin To Net: NetName=GND Pin=XP?-2
+Added Pin To Net: NetName=GND Pin=XP?-3
+Added Pin To Net: NetName=GND Pin=XP?-4
+Added Pin To Net: NetName=GND Pin=XP?-9
+Added Pin To Net: NetName=GND Pin=XP?-10
+Added Pin To Net: NetName=GND Pin=XS?-5
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-2
+Added Pin To Net: NetName=NetC?_1 Pin=DA?-6
+Added Pin To Net: NetName=NetC?_1 Pin=DA?-7
+Added Pin To Net: NetName=NetC?_1 Pin=R?-2
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=DA?-3
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetD?_2 Pin=R?-2
+Added Net: Name=NetD?_2
+Added Pin To Net: NetName=NetD?_6 Pin=R?-1
+Added Net: Name=NetD?_6
+Added Pin To Net: NetName=NetD?_7 Pin=R?-1
+Added Net: Name=NetD?_7
+Added Pin To Net: NetName=NetDA?_1 Pin=DA?-1
+Added Pin To Net: NetName=NetDA?_1 Pin=L?-2
+Added Pin To Net: NetName=NetDA?_1 Pin=VD?-1
+Added Net: Name=NetDA?_1
+Added Pin To Net: NetName=NetDA?_5 Pin=DA?-5
+Added Pin To Net: NetName=NetDA?_5 Pin=R?-1
+Added Pin To Net: NetName=NetDA?_5 Pin=R?-2
+Added Net: Name=NetDA?_5
+Added Pin To Net: NetName=NetDA?_8 Pin=DA?-8
+Added Pin To Net: NetName=NetDA?_8 Pin=R?-1
+Added Net: Name=NetDA?_8
+Added Pin To Net: NetName=NetHL?_1 Pin=HL?-1
+Added Pin To Net: NetName=NetHL?_1 Pin=R?-2
+Added Net: Name=NetHL?_1
+Added Pin To Net: NetName=NetHL?_2 Pin=HL?-2
+Added Pin To Net: NetName=NetHL?_2 Pin=R?-2
+Added Net: Name=NetHL?_2
+Added Pin To Net: NetName=NetK?_1 Pin=XS?-2
+Added Net: Name=NetK?_1
+Added Pin To Net: NetName=NetK?_2 Pin=VD?-1
+Added Pin To Net: NetName=NetK?_2 Pin=VT?-3
+Added Net: Name=NetK?_2
+Added Pin To Net: NetName=NetK?_3 Pin=XS?-3
+Added Net: Name=NetK?_3
+Added Pin To Net: NetName=NetK?_4 Pin=XS?-1
+Added Net: Name=NetK?_4
+Added Pin To Net: NetName=NetL?_1 Pin=L?-1
+Added Pin To Net: NetName=NetL?_1 Pin=R?-1
+Added Pin To Net: NetName=NetL?_1 Pin=R?-2
+Added Net: Name=NetL?_1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=VT?-1
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=PA11 Pin=XP?-5
+Added Net: Name=PA11
+Added Pin To Net: NetName=PA12 Pin=XP?-6
+Added Net: Name=PA12
+Added Pin To Net: NetName=PB5 Pin=XP?-4
+Added Net: Name=PB5
+Added Pin To Net: NetName=PB6 Pin=XP?-1
+Added Net: Name=PB6
+Added Pin To Net: NetName=PB7 Pin=XP?-2
+Added Net: Name=PB7
+Added Pin To Net: NetName=PB8 Pin=XP?-3
+Added Net: Name=PB8
+Added Pin To Net: NetName=Relay Pin=R?-2
+Added Net: Name=Relay
+Added Pin To Net: NetName=RESET Pin=C?-2
+Added Pin To Net: NetName=RESET Pin=R?-1
+Added Pin To Net: NetName=RESET Pin=SB?-1
+Added Pin To Net: NetName=RESET Pin=SB?-1
+Added Pin To Net: NetName=RESET Pin=XP?-1
+Added Net: Name=RESET
+Added Pin To Net: NetName=SWCLK Pin=XP?-6
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=XP?-2
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=TEMP Pin=R?-2
+Added Pin To Net: NetName=TEMP Pin=R?-2
+Added Net: Name=TEMP
+Added Class: Name=LoRa_PCB
+Added Room: Name=LoRa_PCB
