@@ -37,7 +37,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+extern SPI_HandleTypeDef hspi1;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -49,6 +49,8 @@ extern "C" {
 /* USER CODE BEGIN EM */
 
 /* USER CODE END EM */
+
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
@@ -65,6 +67,28 @@ void Error_Handler(void);
 #define PWR_GPIO_Port GPIOA
 #define GPIO1_Pin GPIO_PIN_3
 #define GPIO1_GPIO_Port GPIOA
+#define TFT_SCL_Pin GPIO_PIN_5
+#define TFT_SCL_GPIO_Port GPIOA
+#define TFT_SDA_Pin GPIO_PIN_7
+#define TFT_SDA_GPIO_Port GPIOA
+#define TFT_RES_Pin GPIO_PIN_4
+#define TFT_RES_GPIO_Port GPIOC
+#define TFT_DS_Pin GPIO_PIN_5
+#define TFT_DS_GPIO_Port GPIOC
+#define TFT_CS_Pin GPIO_PIN_0
+#define TFT_CS_GPIO_Port GPIOB
+#define LORA_NSS_Pin GPIO_PIN_12
+#define LORA_NSS_GPIO_Port GPIOB
+#define LORA_SCK_Pin GPIO_PIN_13
+#define LORA_SCK_GPIO_Port GPIOB
+#define LORA_MISO_Pin GPIO_PIN_14
+#define LORA_MISO_GPIO_Port GPIOB
+#define LORA_MOSI_Pin GPIO_PIN_15
+#define LORA_MOSI_GPIO_Port GPIOB
+#define LORA_RST_Pin GPIO_PIN_6
+#define LORA_RST_GPIO_Port GPIOC
+#define LORA_DIO0_Pin GPIO_PIN_7
+#define LORA_DIO0_GPIO_Port GPIOC
 #define Relay_Pin GPIO_PIN_8
 #define Relay_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
