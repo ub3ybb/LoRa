@@ -106,23 +106,22 @@ int main(void) {
 
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
-	// while (HAL_GPIO_ReadPin(PWR_B_GPIO_Port, PWR_B_Pin)) {
-	// 	HAL_Delay(1000);
-	// 	i++;
-	// 	if (i > 2)
-	// 		return 0;
-	// }
-	// HAL_GPIO_WritePin(PWR_GPIO_Port, PWR_Pin, GPIO_PIN_RESET); //???????? ????????, ????? ?????? ?? ?????????? ????.
-	// i = 0;
-	// HAL_Delay(100);
 
 	ST7735_Init();
 	ST7735_FillScreen(ST7735_BLACK);
 	// ST7735_WriteString(0, 5, "Hello RadioClub from  LoRa project!", Font_7x10, ST7735_WHITE, ST7735_BLACK);
-	HAL_Delay(2000);
+	//HAL_Delay(2000);
 	// ST7735_DrawImage(1, 3, ST7735_WIDTH - 1, ST7735_HEIGHT - 3, (uint16_t *)test_img_160x128_2);
+	//HAL_Delay(2000);
 
-	HAL_Delay(2000);
+	if (HAL_GPIO_ReadPin(PWR_B_GPIO_Port, PWR_B_Pin)==GPIO_PIN_RESET)
+		    {
+			ST7735_WriteString(0, 5, "Start", Font_7x10, ST7735_WHITE, ST7735_BLACK);
+			HAL_Delay(1000);
+		    }
+		  HAL_GPIO_WritePin(PWR_GPIO_Port, PWR_Pin, GPIO_PIN_SET);
+		  i = 0;
+		  HAL_Delay(100);
 
 	SX1278_hw_t SX1278_pins;
 
@@ -175,12 +174,19 @@ int main(void) {
 		// HAL_GPIO_TogglePin(Relay_GPIO_Port, Relay_Pin);
 		// HAL_Delay(1000);
 
-		// if (HAL_GPIO_ReadPin(PWR_B_GPIO_Port, PWR_B_Pin)) {
-		// 	i++;
-		// 	if (i > 2)
-		// 		HAL_GPIO_WritePin(PWR_GPIO_Port, PWR_Pin, GPIO_PIN_SET);
-		// }
-
+		/*if (HAL_GPIO_ReadPin(PWR_B_GPIO_Port, PWR_B_Pin)==GPIO_PIN_RESET)
+			{
+			HAL_Delay(1000);
+			if (HAL_GPIO_ReadPin(PWR_B_GPIO_Port, PWR_B_Pin)==GPIO_PIN_RESET)
+			ST7735_WriteString(0, 5, "Done", Font_7x10, ST7735_WHITE, ST7735_BLACK);
+			HAL_Delay(100);
+			{
+			HAL_GPIO_WritePin(PWR_GPIO_Port, PWR_Pin, GPIO_PIN_RESET);
+			while(1)
+			{};
+			}
+			}
+*/
 		/* USER CODE END WHILE */
 
 		/* USER CODE BEGIN 3 */
