@@ -88,6 +88,12 @@ void Error_Handler(void);
 #define LORA_DIO0_GPIO_Port GPIOC
 #define Relay_Pin GPIO_PIN_8
 #define Relay_GPIO_Port GPIOA
+#define ET_RSTn_Pin GPIO_PIN_2
+#define ET_RSTn_GPIO_Port GPIOD
+#define ET_INTn_Pin GPIO_PIN_6
+#define ET_INTn_GPIO_Port GPIOB
+#define ET_SCSn_Pin GPIO_PIN_7
+#define ET_SCSn_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
