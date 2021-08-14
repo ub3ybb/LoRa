@@ -117,10 +117,10 @@ int main(void) {
 	if (HAL_GPIO_ReadPin(PWR_B_GPIO_Port, PWR_B_Pin)==GPIO_PIN_RESET)
 		    {
 			ST7735_WriteString(0, 5, "Start", Font_7x10, ST7735_WHITE, ST7735_BLACK);
-			HAL_Delay(1000);
+			HAL_Delay(500);
 		    }
 		  HAL_GPIO_WritePin(PWR_GPIO_Port, PWR_Pin, GPIO_PIN_SET);
-		  i = 0;
+
 		  HAL_Delay(100);
 
 	SX1278_hw_t SX1278_pins;
@@ -167,26 +167,11 @@ int main(void) {
 		sprintf(snr_str, "LP SNR = %.2f", lastPacketSNR);
 		ST7735_WriteString(0, 70, snr_str, Font_7x10, ST7735_WHITE, ST7735_BLACK);
 
-		HAL_Delay(2000);
+		HAL_Delay(200);
 		ST7735_FillScreen(ST7735_BLACK);
 		// Check fonts
 
-		// HAL_GPIO_TogglePin(Relay_GPIO_Port, Relay_Pin);
-		// HAL_Delay(1000);
 
-		/*if (HAL_GPIO_ReadPin(PWR_B_GPIO_Port, PWR_B_Pin)==GPIO_PIN_RESET)
-			{
-			HAL_Delay(1000);
-			if (HAL_GPIO_ReadPin(PWR_B_GPIO_Port, PWR_B_Pin)==GPIO_PIN_RESET)
-			ST7735_WriteString(0, 5, "Done", Font_7x10, ST7735_WHITE, ST7735_BLACK);
-			HAL_Delay(100);
-			{
-			HAL_GPIO_WritePin(PWR_GPIO_Port, PWR_Pin, GPIO_PIN_RESET);
-			while(1)
-			{};
-			}
-			}
-*/
 		/* USER CODE END WHILE */
 
 		/* USER CODE BEGIN 3 */
@@ -364,10 +349,27 @@ static void MX_GPIO_Init(void) {
 
 /* USER CODE BEGIN 4 */
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-	if (GPIO_Pin == GPIO_PIN_1) { //PWR_B
-		HAL_GPIO_WritePin(PWR_GPIO_Port, PWR_Pin, GPIO_PIN_SET); //вsключаем питанием, путем подачи на транзистор единицы.
+	if (GPIO_Pin == PWR_B_Pin) { //PWR_B
+			   	    i++;
+			    	char status[16];
+			   	    sprintf(status, "STOP %d", i);
+			   	 	ST7735_WriteString(0, 0, status, Font_7x10, ST7735_RED, ST7735_BLACK);
+				 	}
+	else i=0;
+
+					if(i>10)
+					{
+					ST7735_WriteString(0, 5, "Done", Font_7x10, ST7735_WHITE, ST7735_BLACK);
+					HAL_Delay(100);
+					HAL_GPIO_WritePin(PWR_GPIO_Port, PWR_Pin, GPIO_PIN_RESET);
+
+					while(1)
+					{};
+					}
+
+
 	}
-}
+
 /* USER CODE END 4 */
 
 /**
