@@ -12,6 +12,7 @@
 #include "st7735.h"
 #include "fonts.h"
 #include "stdio.h"
+#include "http.h"
 
 #define CS_GPIO_PORT GPIOB
 #define CS_PIN GPIO_PIN_6
@@ -26,6 +27,15 @@
 typedef struct tcp_prop {
 	volatile uint8_t cur_sock; //активный сокет
 } tcp_prop_ptr;
+
+//Статусы передачи данных
+
+#define DATA_COMPLETED 0 //data transfer is finished 
+#define DATA_ONE 1 //transmit single package
+#define DATA_FIRST 2 //transmit first package
+#define DATA_MIDDLE 3 //transmit middle package
+#define DATA_LAST 4 //transmit last package
+#define DATA_END 5 //closing connection after data transfer
 
 #endif /* W5500_H_ */
 
@@ -101,3 +111,4 @@ void OpenSocket(uint8_t sock_num, uint16_t mode);
 void ListenSocket(uint8_t sock_num);
 void SocketListenWait(uint8_t sock_num);
 void w5500_packetReceive(void);
+uint16_t GetReadPointer(uint8_t sock_num);

@@ -3,7 +3,9 @@
 extern SPI_HandleTypeDef hspi3;
 
 extern char str1[60];
+char tmpbuf[30];
 tcp_prop_ptr tcpprop;
+extern http_sock_prop_ptr httpsockprop[2];
 uint8_t macaddr[6] = MAC_ADDR;
 extern uint8_t ipaddr[4];
 extern uint8_t ipgate[4];
@@ -36,10 +38,24 @@ uint8_t GetSocketStatus(uint8_t sock_num) {
 	return dt;
 }
 
+uint16_t GetSizeRX(uint8_t sock_num) {
+	uint16_t len;
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	len = (w5500_readReg(opcode, Sn_RX_RSR0) << 8 | w5500_readReg(opcode, Sn_RX_RSR1));
+	return len;
+}
+
+uint16_t GetReadPointer(uint8_t sock_num) {
+	uint16_t point;
+	uint8_t opcode;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	point = (w5500_readReg(opcode, Sn_RX_RD0) << 8 | w5500_readReg(opcode, Sn_RX_RD1));
+	return point;
+}
+
 void w5500_init(void) {
-
 	uint8_t dtt = 0;
-
 	uint8_t opcode = 0;
 
 	// Hard Reset
@@ -95,7 +111,7 @@ void w5500_init(void) {
 	opcode = (BSB_S0 << 3) | OM_FDM1;
 	dtt = w5500_readReg(opcode, Sn_SR);
 	sprintf(str1, "First Status Sn0: 0x%02X", dtt);
-	ST7735_WriteString(0, 5, str1, Font_7x10, ST7735_WHITE, ST7735_BLACK);
+	ST7735_WriteSerialStrings(str1, Font_7x10, ST7735_WHITE, ST7735_BLACK);
 	// HAL_UART_Transmit(&huart2, (uint8_t *)str1, strlen(str1), 0x1000);
 }
 
@@ -103,6 +119,19 @@ void w5500_packetReceive(void) {
 	uint16_t point;
 	uint16_t len;
 	if (GetSocketStatus(tcpprop.cur_sock) == SOCK_ESTABLISHED) {
+		if (httpsockprop[tcpprop.cur_sock].data_stat == DATA_COMPLETED) {
+			// Display size of received data
+			len = GetSizeRX(0);
+			sprintf(str1, "len_rx_buf:0x%04X", len);
+			ST7735_WriteSerialStrings(str1, Font_7x10, ST7735_WHITE, ST7735_BLACK);
+			point = GetReadPointer(tcpprop.cur_sock);
+			sprintf(str1, "Sn_RX_RD:0x%04X", point);
+			ST7735_WriteSerialStrings(str1, Font_7x10, ST7735_WHITE, ST7735_BLACK);
+			// if received empty package, then leave the function
+			if (!len) {
+				return;
+			}
+		}
 	}
 }
 

@@ -51,7 +51,7 @@ SPI_HandleTypeDef hspi3;
 
 /* USER CODE END PV */
 
-/* Private function prototypes -----------------------------------------------*/                    
+/* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_SPI1_Init(void);
@@ -97,7 +97,7 @@ int main(void) {
 	MX_SPI2_Init();
 	MX_SPI3_Init();
 	/* USER CODE BEGIN 2 */
-        ST7735_Init();
+	ST7735_Init();
 	ST7735_FillScreen(ST7735_BLACK);
 	net_init();
 	/* USER CODE END 2 */
