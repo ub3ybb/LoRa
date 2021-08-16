@@ -3,6 +3,7 @@
 extern SPI_HandleTypeDef hspi3;
 
 extern char str1[60];
+tcp_prop_ptr tcpprop;
 uint8_t macaddr[6] = MAC_ADDR;
 extern uint8_t ipaddr[4];
 extern uint8_t ipgate[4];
@@ -25,6 +26,14 @@ uint8_t w5500_readReg(uint8_t op, uint16_t addres) {
 	SS_DESELECT();
 	data = rbuf[3];
 	return data;
+}
+
+uint8_t GetSocketStatus(uint8_t sock_num) {
+	uint8_t dt;
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	dt = w5500_readReg(opcode, Sn_SR);
+	return dt;
 }
 
 void w5500_init(void) {
@@ -68,10 +77,70 @@ void w5500_init(void) {
 	opcode = (BSB_S0 << 3) | OM_FDM1;
 	w5500_writeReg(opcode, Sn_PORT0, local_port >> 8);
 	w5500_writeReg(opcode, Sn_PORT1, local_port);
+
+	// initializing active socket
+	tcpprop.cur_sock = 0;
+
+	// open socket 0
+	OpenSocket(0, Mode_TCP);
+	SocketInitWait(0);
+
+	// listening the socket
+	ListenSocket(0);
+	SocketListenWait(0);
+
+	HAL_Delay(500);
+
+	// Watching Socket 0 Status Register
+	opcode = (BSB_S0 << 3) | OM_FDM1;
+	dtt = w5500_readReg(opcode, Sn_SR);
+	sprintf(str1, "First Status Sn0: 0x%02X", dtt);
+	ST7735_WriteString(0, 5, str1, Font_7x10, ST7735_WHITE, ST7735_BLACK);
+	// HAL_UART_Transmit(&huart2, (uint8_t *)str1, strlen(str1), 0x1000);
+}
+
+void w5500_packetReceive(void) {
+	uint16_t point;
+	uint16_t len;
+	if (GetSocketStatus(tcpprop.cur_sock) == SOCK_ESTABLISHED) {
+	}
 }
 
 uint8_t readChipVerReg() {
 	uint8_t opcode = 0;
 	opcode = (BSB_COMMON << 3) | OM_FDM1;
 	return w5500_readReg(opcode, VERSIONR);
+}
+
+void OpenSocket(uint8_t sock_num, uint16_t mode) {
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	w5500_writeReg(opcode, Sn_MR, mode);
+	w5500_writeReg(opcode, Sn_CR, 0x01);
+}
+
+void SocketInitWait(uint8_t sock_num) {
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	while (1) {
+		if (w5500_readReg(opcode, Sn_SR) == SOCK_INIT) {
+			break;
+		}
+	}
+}
+
+void ListenSocket(uint8_t sock_num) {
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	w5500_writeReg(opcode, Sn_CR, 0x02); // LISTEN SOCKET
+}
+
+void SocketListenWait(uint8_t sock_num) {
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	while (1) {
+		if (w5500_readReg(opcode, Sn_SR) == SOCK_LISTEN) {
+			break;
+		}
+	}
 }

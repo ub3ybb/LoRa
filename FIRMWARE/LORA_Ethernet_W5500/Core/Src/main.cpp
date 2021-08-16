@@ -24,6 +24,8 @@
 /* USER CODE BEGIN Includes */
 #include "net.h"
 #include "W5500.h"
+#include "st7735.h"
+#include "fonts.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,7 +51,7 @@ SPI_HandleTypeDef hspi3;
 
 /* USER CODE END PV */
 
-/* Private function prototypes -----------------------------------------------*/
+/* Private function prototypes -----------------------------------------------*/                    
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_SPI1_Init(void);
@@ -95,6 +97,8 @@ int main(void) {
 	MX_SPI2_Init();
 	MX_SPI3_Init();
 	/* USER CODE BEGIN 2 */
+        ST7735_Init();
+	ST7735_FillScreen(ST7735_BLACK);
 	net_init();
 	/* USER CODE END 2 */
 
@@ -102,7 +106,7 @@ int main(void) {
 	/* USER CODE BEGIN WHILE */
 	while (1) {
 		/* USER CODE END WHILE */
-		//uint8_t chipVer = readChipVerReg();
+		// uint8_t chipVer = readChipVerReg();
 		/* USER CODE BEGIN 3 */
 		net_poll();
 	}

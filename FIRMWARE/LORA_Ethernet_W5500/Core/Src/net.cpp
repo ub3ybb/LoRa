@@ -11,6 +11,7 @@ uint16_t local_port = LOCAL_PORT;
 char str1[60] = {0};
 
 void packet_receive(void) {
+	w5500_packetReceive();
 }
 
 void net_poll(void) {
