@@ -280,3 +280,11 @@ void ST7735_InvertColors(bool invert) {
 	ST7735_WriteCommand(invert ? ST7735_INVON : ST7735_INVOFF);
 	ST7735_Unselect();
 }
+
+uint8_t strNum = 0;
+void ST7735_WriteSerialStrings(const char *str, FontDef font, uint16_t color, uint16_t bgcolor) {
+	ST7735_FillRectangle(0, strNum * font.height + 5, ST7735_WIDTH, font.height, ST7735_BLACK);
+	ST7735_WriteString(0, strNum * font.height + 5, str, font, color, bgcolor);
+	strNum++;
+	strNum = ((strNum * font.height + 5) > ST7735_HEIGHT) ? 0 : strNum;
+}
