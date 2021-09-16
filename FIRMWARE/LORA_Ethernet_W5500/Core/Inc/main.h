@@ -90,6 +90,12 @@ void Error_Handler(void);
 #define Relay_GPIO_Port GPIOA
 #define ET_RSTn_Pin GPIO_PIN_2
 #define ET_RSTn_GPIO_Port GPIOD
+#define ET_SCK_Pin GPIO_PIN_3
+#define ET_SCK_GPIO_Port GPIOB
+#define ET_MISO_Pin GPIO_PIN_4
+#define ET_MISO_GPIO_Port GPIOB
+#define ET_MOSI_Pin GPIO_PIN_5
+#define ET_MOSI_GPIO_Port GPIOB
 #define ET_INTn_Pin GPIO_PIN_6
 #define ET_INTn_GPIO_Port GPIOB
 #define ET_SCSn_Pin GPIO_PIN_7
