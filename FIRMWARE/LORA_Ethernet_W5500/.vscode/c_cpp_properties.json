@@ -404,11 +404,11 @@
                 "__weak="
             ],
             "includePath": [
-                "c:\\Users\\Ilya\\Documents\\Projects\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Core\\Inc",
-                "c:\\Users\\Ilya\\Documents\\Projects\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Drivers\\STM32L1xx_HAL_Driver\\Inc",
-                "c:\\Users\\Ilya\\Documents\\Projects\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Drivers\\STM32L1xx_HAL_Driver\\Inc\\Legacy",
-                "c:\\Users\\Ilya\\Documents\\Projects\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Drivers\\CMSIS\\Device\\ST\\STM32L1xx\\Include",
-                "c:\\Users\\Ilya\\Documents\\Projects\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Drivers\\CMSIS\\Include",
+                "c:\\Users\\Ilya\\Documents\\Projects\\STM32\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Core\\Inc",
+                "c:\\Users\\Ilya\\Documents\\Projects\\STM32\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Drivers\\STM32L1xx_HAL_Driver\\Inc",
+                "c:\\Users\\Ilya\\Documents\\Projects\\STM32\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Drivers\\STM32L1xx_HAL_Driver\\Inc\\Legacy",
+                "c:\\Users\\Ilya\\Documents\\Projects\\STM32\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Drivers\\CMSIS\\Device\\ST\\STM32L1xx\\Include",
+                "c:\\Users\\Ilya\\Documents\\Projects\\STM32\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\Drivers\\CMSIS\\Include",
                 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc",
                 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c",
                 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\cpp"

@@ -25,17 +25,26 @@
 #define be16toword(a) ((((a) >> 8) & 0xff) | (((a) << 8) & 0xff00))
 
 typedef struct tcp_prop {
-	volatile uint8_t cur_sock; //активный сокет
+	volatile uint8_t cur_sock; // active socket
 } tcp_prop_ptr;
 
-//Статусы передачи данных
+typedef struct data_sect {
+	volatile uint16_t addr;
+	volatile uint8_t opcode;
+	uint8_t *data;
+} data_sect_ptr;
 
-#define DATA_COMPLETED 0 //data transfer is finished 
-#define DATA_ONE 1 //transmit single package
-#define DATA_FIRST 2 //transmit first package
-#define DATA_MIDDLE 3 //transmit middle package
-#define DATA_LAST 4 //transmit last package
-#define DATA_END 5 //closing connection after data transfer
+// Data transfer statuses
+#define DATA_COMPLETED 0 // data transfer is finished
+#define DATA_ONE 1		 // transmit single package
+#define DATA_FIRST 2	 // transmit first package
+#define DATA_MIDDLE 3	 // transmit middle package
+#define DATA_LAST 4		 // transmit last package
+#define DATA_END 5		 // closing connection after data transfer
+
+// TCP protocol options
+#define PRT_TCP_UNCNOWN 0
+#define PRT_TCP_HTTP 1
 
 #endif /* W5500_H_ */
 
@@ -77,13 +86,13 @@ typedef struct tcp_prop {
 #define Sn_CR 0x0001 // Socket 0 Command Register
 #define Sn_SR 0x0003 // Socket 0 Status Register
 
-//Socket mode
+// Socket mode
 #define Mode_CLOSED 0x00
 #define Mode_TCP 0x01
 #define Mode_UDP 0x02
 #define Mode_MACRAV 0x04
 
-//Socket states
+// Socket states
 #define SOCK_CLOSED 0x00
 #define SOCK_INIT 0x13
 #define SOCK_LISTEN 0x14
@@ -112,3 +121,6 @@ void ListenSocket(uint8_t sock_num);
 void SocketListenWait(uint8_t sock_num);
 void w5500_packetReceive(void);
 uint16_t GetReadPointer(uint8_t sock_num);
+uint8_t w5500_readSockBufByte(uint8_t sock_num, uint16_t point);
+void SocketClosedWait(uint8_t sock_num);
+void DisconnectSocket(uint8_t sock_num);

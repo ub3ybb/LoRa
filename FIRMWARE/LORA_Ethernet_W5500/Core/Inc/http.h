@@ -29,3 +29,5 @@ typedef struct http_sock_prop {
 #define E404_HTML 1
 #define EXISTING_JPG 2
 #define EXISTING_ICO 3
+
+void http_request();

@@ -3,7 +3,7 @@
 extern SPI_HandleTypeDef hspi3;
 
 extern char str1[60];
-char tmpbuf[30];
+char tmpbuf[30] = {0};
 tcp_prop_ptr tcpprop;
 extern http_sock_prop_ptr httpsockprop[2];
 uint8_t macaddr[6] = MAC_ADDR;
@@ -28,6 +28,27 @@ uint8_t w5500_readReg(uint8_t op, uint16_t addres) {
 	SS_DESELECT();
 	data = rbuf[3];
 	return data;
+}
+
+void w5500_readBuf(data_sect_ptr *datasect, uint16_t len) {
+	SS_SELECT();
+	HAL_SPI_Transmit(&hspi3, (uint8_t *)datasect, 3, 0xFFFFFFFF);
+	HAL_SPI_Receive(&hspi3, (uint8_t *)datasect, len, 0xFFFFFFFF);
+	SS_DESELECT();
+}
+
+uint8_t w5500_readSockBufByte(uint8_t sock_num, uint16_t point) {
+	uint8_t opcode, bt;
+	opcode = (((sock_num << 2) | BSB_S0_RX) << 3) | OM_FDM1;
+	bt = w5500_readReg(opcode, point);
+	return bt;
+}
+
+void w5500_readSockBuf(uint8_t sock_num, uint16_t point, uint8_t *buf, uint16_t len) {
+	data_sect_ptr *datasect = (data_sect_ptr *)buf;
+	datasect->opcode = (((sock_num << 2) | BSB_S0_RX) << 3) | OM_FDM0;
+	datasect->addr = be16toword(point);
+	w5500_readBuf(datasect, len);
 }
 
 uint8_t GetSocketStatus(uint8_t sock_num) {
@@ -131,6 +152,22 @@ void w5500_packetReceive(void) {
 			if (!len) {
 				return;
 			}
+			w5500_readSockBuf(tcpprop.cur_sock, point, (uint8_t *)tmpbuf, 20);
+			sprintf(str1, "SockRxBuff:%s", tmpbuf);
+			ST7735_WriteSerialStrings(str1, Font_7x10, ST7735_WHITE, ST7735_BLACK);
+
+			if (strncmp(tmpbuf, "GET /", 5) == 0) {
+				// HAL_UART_Transmit(&huart2, (uint8_t *)"HTTPrn", 6, 0x1000);
+				ST7735_WriteSerialStrings("HTTP", Font_7x10, ST7735_WHITE, ST7735_BLACK);
+				httpsockprop[tcpprop.cur_sock].prt_tp = PRT_TCP_HTTP;
+				http_request();
+			}
+		} else if (httpsockprop[tcpprop.cur_sock].data_stat == DATA_MIDDLE) {
+			if (httpsockprop[tcpprop.cur_sock].prt_tp == PRT_TCP_HTTP) {
+			}
+		} else if (httpsockprop[tcpprop.cur_sock].data_stat == DATA_LAST) {
+			if (httpsockprop[tcpprop.cur_sock].prt_tp == PRT_TCP_HTTP) {
+			}
 		}
 	}
 }
@@ -172,4 +209,20 @@ void SocketListenWait(uint8_t sock_num) {
 			break;
 		}
 	}
+}
+
+void SocketClosedWait(uint8_t sock_num) {
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	while (1) {
+		if (w5500_readReg(opcode, Sn_SR) == SOCK_CLOSED) {
+			break;
+		}
+	}
+}
+
+void DisconnectSocket(uint8_t sock_num) {
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	w5500_writeReg(opcode, Sn_CR, 0x08); // DISCON
 }

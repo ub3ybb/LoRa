@@ -1,5 +1,5 @@
 {
-    "ewp": "c:\\Users\\Ilya\\Documents\\Projects\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\EWARM\\LORA_Ethernert_W5500.ewp",
+    "ewp": "c:\\Users\\Ilya\\Documents\\Projects\\STM32\\LoRa\\FIRMWARE\\LORA_Ethernet_W5500\\EWARM\\LORA_Ethernert_W5500.ewp",
     "configuration": "LORA_Ethernert_W5500",
     "compiler": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\bin\\iccarm.exe",
     "workbench": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4"
