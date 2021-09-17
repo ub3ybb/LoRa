@@ -4,6 +4,7 @@ extern SPI_HandleTypeDef hspi3;
 
 extern char str1[60];
 char tmpbuf[30] = {0};
+uint8_t sect[515];
 tcp_prop_ptr tcpprop;
 extern http_sock_prop_ptr httpsockprop[2];
 uint8_t macaddr[6] = MAC_ADDR;
@@ -17,6 +18,18 @@ void w5500_writeReg(uint8_t op, uint16_t addres, uint8_t data) {
 	SS_SELECT();
 	HAL_SPI_Transmit(&hspi3, buf, 4, 0xFFFFFFFF);
 	SS_DESELECT();
+}
+void w5500_writeBuf(data_sect_ptr *datasect, uint16_t len) {
+	SS_SELECT();
+	HAL_SPI_Transmit(&hspi3, (uint8_t *)datasect, len, 0xFFFFFFFF);
+	SS_DESELECT();
+}
+
+void w5500_writeSockBuf(uint8_t sock_num, uint16_t point, uint8_t *buf, uint16_t len) {
+	data_sect_ptr *datasect = (data_sect_ptr *)buf;
+	datasect->opcode = (((sock_num << 2) | BSB_S0_TX) << 3) | (RWB_WRITE << 2) | OM_FDM0;
+	datasect->addr = be16toword(point);
+	w5500_writeBuf(datasect, len + 3); // 3 service bytes
 }
 
 uint8_t w5500_readReg(uint8_t op, uint16_t addres) {
@@ -59,6 +72,18 @@ uint8_t GetSocketStatus(uint8_t sock_num) {
 	return dt;
 }
 
+void RecvSocket(uint8_t sock_num) {
+	uint8_t opcode;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	w5500_writeReg(opcode, Sn_CR, 0x40); // RECV SOCKET
+}
+
+void SendSocket(uint8_t sock_num) {
+	uint8_t opcode;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	w5500_writeReg(opcode, Sn_CR, 0x20); // SEND SOCKET
+}
+
 uint16_t GetSizeRX(uint8_t sock_num) {
 	uint16_t len;
 	uint8_t opcode = 0;
@@ -73,6 +98,21 @@ uint16_t GetReadPointer(uint8_t sock_num) {
 	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
 	point = (w5500_readReg(opcode, Sn_RX_RD0) << 8 | w5500_readReg(opcode, Sn_RX_RD1));
 	return point;
+}
+
+uint16_t GetWritePointer(uint8_t sock_num) {
+	uint16_t point;
+	uint8_t opcode;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	point = (w5500_readReg(opcode, Sn_TX_WR0) << 8 | w5500_readReg(opcode, Sn_TX_WR1));
+	return point;
+}
+
+void SetWritePointer(uint8_t sock_num, uint16_t point) {
+	uint8_t opcode;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	w5500_writeReg(opcode, Sn_TX_WR0, point >> 8);
+	w5500_writeReg(opcode, Sn_TX_WR1, (uint8_t)point);
 }
 
 void w5500_init(void) {
@@ -153,8 +193,6 @@ void w5500_packetReceive(void) {
 				return;
 			}
 			w5500_readSockBuf(tcpprop.cur_sock, point, (uint8_t *)tmpbuf, 20);
-			sprintf(str1, "SockRxBuff:%s", tmpbuf);
-			ST7735_WriteSerialStrings(str1, Font_7x10, ST7735_WHITE, ST7735_BLACK);
 
 			if (strncmp(tmpbuf, "GET /", 5) == 0) {
 				// HAL_UART_Transmit(&huart2, (uint8_t *)"HTTPrn", 6, 0x1000);
