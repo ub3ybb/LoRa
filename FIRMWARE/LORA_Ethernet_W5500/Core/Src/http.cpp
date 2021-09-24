@@ -1,4 +1,9 @@
 #include "http.h"
+#include "web_pages.h"
+#include <map>
+#include <string>
+
+#define PAGES_NUM 2
 
 extern char str1[60];
 extern char tmpbuf[30];
@@ -6,37 +11,39 @@ extern uint8_t sect[515];
 http_sock_prop_ptr httpsockprop[2];
 extern tcp_prop_ptr tcpprop;
 
+bool is_page_exist = false;
 volatile uint16_t tcp_size_wnd = 2048;
 
-const char http_header[] = {"HTTP/1.1 200 OKrnContent-Type: text/htmlrnrn"};
-const char jpg_header[] = {"HTTP/1.0 200 OKrnServer: nginxrnContent-Type: image/jpegrnConnection: closernrn"};
-const char icon_header[] = {"HTTP/1.1 200 OKrnContent-Type: image/x-iconrnrn"};
-const char error_header[] = {"HTTP/1.0 404 File not foundrnServer: nginxrnContent-Type: text/htmlrnConnection: closernrn"};
+char *pages_names[] = {"hello_world.html", "houston.html"};
+std::map<std::string, char *> pages_map = {{pages_names[0], hello_world_page}, {pages_names[1], houston}};
+
+const char http_header[] = {"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n"};
+const char jpg_header[] = {"HTTP/1.0 200 OK\r\nServer: nginx\r\nContent-Type: image/jpeg\r\nConnection: close\r\n\r\n"};
+const char icon_header[] = {"HTTP/1.1 200 OK\r\nContent-Type: image/x-icon\r\n\r\n"};
+const char error_header[] = {"HTTP/1.0 404 File not found\r\nServer: nginx\r\nContent-Type: text/html\r\nConnection: close\r\n\r\n"};
 char *header;
 
-const uint8_t e404_htm[]
-	= {0x3c, 0x68, 0x74, 0x6d, 0x6c, 0x3e, 0x0a, 0x20, 0x20, 0x3c, 0x68, 0x65, 0x61, 0x64, 0x3e, 0x0a, 0x20, 0x20, 0x20, 0x20, 0x3c, 0x74, 0x69, 0x74, 0x6c,
-	   0x65, 0x3e, 0x34, 0x30, 0x34, 0x20, 0x4e, 0x6f, 0x74, 0x20, 0x46, 0x6f, 0x75, 0x6e, 0x64, 0x3c, 0x2f, 0x74, 0x69, 0x74, 0x6c, 0x65, 0x3e, 0x0a, 0x20,
-	   0x20, 0x3c, 0x2f, 0x68, 0x65, 0x61, 0x64, 0x3e, 0x0a, 0x3c, 0x62, 0x6f, 0x64, 0x79, 0x3e, 0x0a, 0x3c, 0x68, 0x31, 0x20, 0x73, 0x74, 0x79, 0x6c, 0x65,
-	   0x3d, 0x22, 0x74, 0x65, 0x78, 0x74, 0x2d, 0x61, 0x6c, 0x69, 0x67, 0x6e, 0x3a, 0x20, 0x63, 0x65, 0x6e, 0x74, 0x65, 0x72, 0x3b, 0x22, 0x3e, 0x34, 0x30,
-	   0x34, 0x20, 0x45, 0x72, 0x72, 0x6f, 0x72, 0x20, 0x46, 0x69, 0x6c, 0x65, 0x20, 0x4e, 0x6f, 0x74, 0x20, 0x46, 0x6f, 0x75, 0x6e, 0x64, 0x3c, 0x2f, 0x68,
-	   0x31, 0x3e, 0x0a, 0x3c, 0x68, 0x32, 0x20, 0x73, 0x74, 0x79, 0x6c, 0x65, 0x3d, 0x22, 0x74, 0x65, 0x78, 0x74, 0x2d, 0x61, 0x6c, 0x69, 0x67, 0x6e, 0x3a,
-	   0x20, 0x63, 0x65, 0x6e, 0x74, 0x65, 0x72, 0x3b, 0x22, 0x3e, 0x20, 0x54, 0x68, 0x65, 0x20, 0x70, 0x61, 0x67, 0x65, 0x20, 0x79, 0x6f, 0x75, 0x20, 0x61,
-	   0x72, 0x65, 0x20, 0x6c, 0x6f, 0x6f, 0x6b, 0x69, 0x6e, 0x67, 0x20, 0x66, 0x6f, 0x72, 0x20, 0x6d, 0x69, 0x67, 0x68, 0x74, 0x20, 0x68, 0x61, 0x76, 0x65,
-	   0x20, 0x62, 0x65, 0x65, 0x6e, 0x20, 0x72, 0x65, 0x6d, 0x6f, 0x76, 0x65, 0x64, 0x2c, 0x20, 0x3c, 0x62, 0x72, 0x20, 0x2f, 0x3e, 0x68, 0x61, 0x64, 0x20,
-	   0x69, 0x74, 0x73, 0x20, 0x6e, 0x61, 0x6d, 0x65, 0x20, 0x63, 0x68, 0x61, 0x6e, 0x67, 0x65, 0x64, 0x2c, 0x20, 0x6f, 0x72, 0x20, 0x69, 0x73, 0x20, 0x74,
-	   0x65, 0x6d, 0x70, 0x6f, 0x72, 0x61, 0x72, 0x69, 0x6c, 0x79, 0x20, 0x75, 0x6e, 0x61, 0x76, 0x61, 0x69, 0x6c, 0x61, 0x62, 0x6c, 0x65, 0x2e, 0x3c, 0x2f,
-	   0x68, 0x32, 0x3e, 0x0a, 0x3c, 0x2f, 0x62, 0x6f, 0x64, 0x79, 0x3e, 0x3c, 0x2f, 0x68, 0x74, 0x6d, 0x6c, 0x3e};
+bool in_array(char *value, char *array[]) {
+	int size = PAGES_NUM;
+	for (int i = 0; i < size; i++) {
+		if (!strcmp(value, array[i])) {
+			return true;
+		}
+	}
+	return false;
+}
 
-void tcp_send_http_one(void) {
+void tcp_send_http_one_data() {
 	uint16_t i = 0;
 	uint16_t data_len = 0;
 	uint16_t header_len = 0;
 	uint16_t end_point;
 	uint8_t num_sect = 0;
 	uint16_t len_sect;
+
 	if ((httpsockprop[tcpprop.cur_sock].http_doc == EXISTING_HTML) || (httpsockprop[tcpprop.cur_sock].http_doc == EXISTING_JPG)
 		|| (httpsockprop[tcpprop.cur_sock].http_doc == EXISTING_ICO)) {
+
 		switch (httpsockprop[tcpprop.cur_sock].http_doc) {
 			case EXISTING_HTML:
 				header = (char *)http_header;
@@ -50,7 +57,7 @@ void tcp_send_http_one(void) {
 		}
 		header_len = strlen(header);
 
-		//data_len = (uint16_t)MyFile.fsize;
+		data_len = strlen(pages_map[httpsockprop[tcpprop.cur_sock].fname]);
 
 		end_point = GetWritePointer(tcpprop.cur_sock);
 		end_point += header_len + data_len;
@@ -63,24 +70,23 @@ void tcp_send_http_one(void) {
 
 		num_sect = data_len / 512;
 
-		// for (i = 0; i <= num_sect; i++) {
-		// 	//не последний сектор
-		// 	if (i < (num_sect - 1)) {
-		// 		len_sect = 512;
-		// 	} else {
-		// 		len_sect = data_len;
-		// 	}
-		// 	result = f_lseek(&MyFile, i * 512); //Установим курсор чтения в файле		//reading 512 byte sectors from SD and writing them to tx buff
-		// 	sprintf(str1, "f_lseek: %drn", result);										//modify for using my own pages
-		// 	HAL_UART_Transmit(&huart2, (uint8_t *)str1, strlen(str1), 0x1000);
-		// 	result = f_read(&MyFile, sect + 3, len_sect, (UINT *)&bytesread);
-		// 	w5500_writeSockBuf(tcpprop.cur_sock, end_point, (uint8_t *)sect, len_sect);
-		// 	end_point += len_sect;
-		// 	data_len -= len_sect;
-		// }
-	} else {
+		for (i = 0; i <= num_sect; i++) {
+			// not last sector
+			if (i < (num_sect - 1)) {
+				len_sect = 512;
+			} else {
+				len_sect = data_len;
+			}
+
+			memcpy(sect + 3, pages_map[httpsockprop[tcpprop.cur_sock].fname] + i * 512, 512); // reading 512 byte sectors from map and writing them to tx buff
+
+			w5500_writeSockBuf(tcpprop.cur_sock, end_point, (uint8_t *)sect, len_sect);
+			end_point += len_sect;
+			data_len -= len_sect;
+		}
+	} else { // error page case
 		header_len = strlen(error_header);
-		data_len = sizeof(e404_htm);
+		data_len = strlen(e404_htm);
 		end_point = GetWritePointer(tcpprop.cur_sock);
 		end_point += header_len + data_len;
 		SetWritePointer(tcpprop.cur_sock, end_point);
@@ -94,9 +100,92 @@ void tcp_send_http_one(void) {
 		w5500_writeSockBuf(tcpprop.cur_sock, end_point, (uint8_t *)sect, data_len);
 		end_point += data_len;
 	}
+
+	RecvSocket(tcpprop.cur_sock);
+	SendSocket(tcpprop.cur_sock); // sending http answer
+	httpsockprop[tcpprop.cur_sock].data_stat = DATA_COMPLETED;
+}
+
+void tcp_send_http_first_prt_data() {
+	uint8_t prt;
+	uint16_t i = 0;
+	uint16_t data_len = 0;
+	uint16_t header_len = 0;
+	uint16_t end_point;
+	uint8_t num_sect = 0;
+	uint16_t len_sect;
+	uint16_t last_part, last_part_size;
+
+	// Don't check if file exist, because of error404 html page fits in only one buffer
+	switch (httpsockprop[tcpprop.cur_sock].http_doc) {
+		case EXISTING_HTML:
+			header = (char *)http_header;
+			break;
+		case EXISTING_ICO:
+			header = (char *)icon_header;
+			break;
+		case EXISTING_JPG:
+			header = (char *)jpg_header;
+			break;
+	}
+	header_len = strlen(header);
+	data_len = tcp_size_wnd - header_len;
+
+	end_point = GetWritePointer(tcpprop.cur_sock); // Define and set pointer in transmit buffer for writing
+	end_point += header_len + data_len;
+	SetWritePointer(tcpprop.cur_sock, end_point);
+	end_point = GetWritePointer(tcpprop.cur_sock);
+
+	//--------------------------------------------------------------------------
+	// some sort of strange code
+	// Narod stream: "let's save some vars, because they are lost for some reason
+	last_part = httpsockprop[tcpprop.cur_sock].cnt_rem_data_part;
+	last_part_size = httpsockprop[tcpprop.cur_sock].last_data_part_size;
+	prt = httpsockprop[tcpprop.cur_sock].prt_tp;
+	//--------------------------------------------------------------------------
+
+	// Fill with data packet transmit buffer
+	memcpy(sect + 3, header, header_len);
+	w5500_writeSockBuf(tcpprop.cur_sock, end_point, (uint8_t *)sect, header_len);
+	end_point += header_len;
+	num_sect = data_len / 512;
+
+	for (i = 0; i <= num_sect; i++) {
+		//не последний сектор
+		if (i < (num_sect - 1)) {
+			len_sect = 512;
+		} else {
+			len_sect = data_len;
+		}
+
+		memcpy(sect + 3, pages_map[httpsockprop[tcpprop.cur_sock].fname] + i * 512, 512); // reading 512 byte sectors from map and writing them to tx buff
+
+		w5500_writeSockBuf(tcpprop.cur_sock, end_point, (uint8_t *)sect, len_sect);
+		end_point += len_sect;
+		data_len -= len_sect;
+	}
+
+	//--------------------------------------------------------------------------
+	// Continuation of some sort of strange code
+	// Narod stream: "return params"
+	httpsockprop[tcpprop.cur_sock].cnt_rem_data_part = last_part;
+	httpsockprop[tcpprop.cur_sock].last_data_part_size = last_part_size;
+	httpsockprop[tcpprop.cur_sock].prt_tp = prt;
+	//--------------------------------------------------------------------------
+	// sending http answer
 	RecvSocket(tcpprop.cur_sock);
 	SendSocket(tcpprop.cur_sock);
-	httpsockprop[tcpprop.cur_sock].data_stat = DATA_COMPLETED;
+	// we have send one part of data, so must decrement remain num of parts
+	httpsockprop[tcpprop.cur_sock].cnt_rem_data_part--;
+
+	if (httpsockprop[tcpprop.cur_sock].cnt_rem_data_part > 1) {
+		httpsockprop[tcpprop.cur_sock].data_stat = DATA_MIDDLE;
+	} else {
+		httpsockprop[tcpprop.cur_sock].data_stat = DATA_LAST;
+	}
+
+	// num of transmitted bytes
+	httpsockprop[tcpprop.cur_sock].total_count_bytes = tcp_size_wnd - header_len;
 }
 
 void http_request() {
@@ -105,6 +194,7 @@ void http_request() {
 	uint16_t i = 0;
 	char *ss1;
 	int ch1 = '.';
+
 	// finding first "/" symbol in HTTP head
 	point = GetReadPointer(tcpprop.cur_sock);
 	i = 0;
@@ -114,6 +204,7 @@ void http_request() {
 	}
 	point += i;
 	RXbyte = w5500_readSockBufByte(tcpprop.cur_sock, point);
+
 	if (RXbyte == (uint8_t)' ') {
 		strcpy(httpsockprop[tcpprop.cur_sock].fname, "index.html");
 		httpsockprop[tcpprop.cur_sock].http_doc = EXISTING_HTML;
@@ -127,16 +218,36 @@ void http_request() {
 		i--;		   // set cntr to end of file name
 		tmpbuf[i] = 0; //закончим строку
 		strcpy(httpsockprop[tcpprop.cur_sock].fname, tmpbuf);
-
-		// HAL_UART_Transmit(&huart2, (uint8_t *)httpsockprop[tcpprop.cur_sock].fname, strlen(httpsockprop[tcpprop.cur_sock].fname), 0x1000);
-		// HAL_UART_Transmit(&huart2, (uint8_t *)"rn", 2, 0x1000);
 		ST7735_WriteSerialStrings((char *)httpsockprop[tcpprop.cur_sock].fname, Font_7x10, ST7735_WHITE, ST7735_BLACK);
-		httpsockprop[tcpprop.cur_sock].http_doc = E404_HTML;
-		// first include header size
-		httpsockprop[tcpprop.cur_sock].data_size = strlen(error_header);
-		// then size of document itself
-		httpsockprop[tcpprop.cur_sock].data_size += sizeof(e404_htm);
+		is_page_exist = in_array(httpsockprop[tcpprop.cur_sock].fname, pages_names);
 
+		if (is_page_exist) {
+			// discover file extension
+			ss1 = strchr(httpsockprop[tcpprop.cur_sock].fname, ch1);
+			ss1++;
+			if (strncmp(ss1, "jpg", 3) == 0) {
+				httpsockprop[tcpprop.cur_sock].http_doc = EXISTING_JPG;
+				// first include header size
+				httpsockprop[tcpprop.cur_sock].data_size = strlen(jpg_header);
+			}
+			if (strncmp(ss1, "ico", 3) == 0) {
+				httpsockprop[tcpprop.cur_sock].http_doc = EXISTING_ICO;
+				// first include header size
+				httpsockprop[tcpprop.cur_sock].data_size = strlen(icon_header);
+			} else {
+				httpsockprop[tcpprop.cur_sock].http_doc = EXISTING_HTML;
+				// first include header size
+				httpsockprop[tcpprop.cur_sock].data_size = strlen(http_header);
+			}
+			// then size of document itself
+			httpsockprop[tcpprop.cur_sock].data_size += strlen(pages_map[httpsockprop[tcpprop.cur_sock].fname]);
+		} else {
+			httpsockprop[tcpprop.cur_sock].http_doc = E404_HTML;
+			// first include header size
+			httpsockprop[tcpprop.cur_sock].data_size = strlen(error_header);
+			// then size of document itself
+			httpsockprop[tcpprop.cur_sock].data_size += strlen(e404_htm);
+		}
 		// calc number of windows
 		httpsockprop[tcpprop.cur_sock].cnt_rem_data_part = httpsockprop[tcpprop.cur_sock].data_size / tcp_size_wnd + 1;
 		httpsockprop[tcpprop.cur_sock].last_data_part_size = httpsockprop[tcpprop.cur_sock].data_size % tcp_size_wnd;
@@ -146,9 +257,8 @@ void http_request() {
 			httpsockprop[tcpprop.cur_sock].cnt_rem_data_part--;
 		}
 		httpsockprop[tcpprop.cur_sock].cnt_data_part = httpsockprop[tcpprop.cur_sock].cnt_rem_data_part;
-		sprintf(str1, "data size:%lu; cnt data part:%u; last_data_part_size:%urn", (unsigned long)httpsockprop[tcpprop.cur_sock].data_size,
+		sprintf(str1, "data size:%lu; cnt data part:%u; last_data_part_size:%u\r\n", (unsigned long)httpsockprop[tcpprop.cur_sock].data_size,
 				httpsockprop[tcpprop.cur_sock].cnt_rem_data_part, httpsockprop[tcpprop.cur_sock].last_data_part_size);
-		// HAL_UART_Transmit(&huart2, (uint8_t *)str1, strlen(str1), 0x1000);
 		ST7735_WriteSerialStrings(str1, Font_7x10, ST7735_WHITE, ST7735_BLACK);
 
 		if (httpsockprop[tcpprop.cur_sock].cnt_rem_data_part == 1) {
@@ -157,17 +267,20 @@ void http_request() {
 			httpsockprop[tcpprop.cur_sock].data_stat = DATA_FIRST;
 		}
 		if (httpsockprop[tcpprop.cur_sock].data_stat == DATA_ONE) {
-			tcp_send_http_one();
+			tcp_send_http_one_data();
+
 			DisconnectSocket(tcpprop.cur_sock); // Disconnecting
 			SocketClosedWait(tcpprop.cur_sock);
+
 			OpenSocket(tcpprop.cur_sock, Mode_TCP);
 			// Waiting init socket (status SOCK_INIT)
 			SocketInitWait(tcpprop.cur_sock);
+
 			// Continue listering socket
 			ListenSocket(tcpprop.cur_sock);
 			SocketListenWait(tcpprop.cur_sock);
-			// httpsockprop[tcpprop.cur_sock].data_stat = DATA_COMPLETED;
 		} else if (httpsockprop[tcpprop.cur_sock].data_stat == DATA_FIRST) {
+			tcp_send_http_first_prt_data();
 		}
 	}
 }

@@ -9,7 +9,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "st7735.h"
+#include "st7735newLib.h"
 #include "fonts.h"
 #include "stdio.h"
 #include "http.h"
@@ -82,9 +82,11 @@ typedef struct data_sect {
 #define Sn_PORT0 0x0004 // Socket 0 Source Port Register MSB
 #define Sn_PORT1 0x0005 // Socket 0 Source Port Register LSB
 
-#define Sn_MR 0x0000 // Socket 0 Mode Register
-#define Sn_CR 0x0001 // Socket 0 Command Register
-#define Sn_SR 0x0003 // Socket 0 Status Register
+#define Sn_MR 0x0000 // Socket n Mode Register
+#define Sn_CR 0x0001 // Socket n Command Register
+#define Sn_IR 0x0002 // Socket n Interrupt Register
+#define Sn_SR 0x0003 // Socket n Status Register
+
 
 // Socket mode
 #define Mode_CLOSED 0x00
@@ -126,6 +128,8 @@ uint16_t GetReadPointer(uint8_t sock_num);
 uint16_t GetWritePointer(uint8_t sock_num);
 void SetWritePointer(uint8_t sock_num, uint16_t point);
 uint8_t w5500_readSockBufByte(uint8_t sock_num, uint16_t point);
+uint8_t w5500_getSocketStatus(uint8_t sock_num);
+uint8_t w5500_getInterruptStatus(uint8_t sock_num);
 void w5500_writeSockBuf(uint8_t sock_num, uint16_t point, uint8_t *buf, uint16_t len);
 void SocketClosedWait(uint8_t sock_num);
 void DisconnectSocket(uint8_t sock_num);

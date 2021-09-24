@@ -64,11 +64,19 @@ void w5500_readSockBuf(uint8_t sock_num, uint16_t point, uint8_t *buf, uint16_t 
 	w5500_readBuf(datasect, len);
 }
 
-uint8_t GetSocketStatus(uint8_t sock_num) {
+uint8_t w5500_getSocketStatus(uint8_t sock_num) {
 	uint8_t dt;
 	uint8_t opcode = 0;
 	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
 	dt = w5500_readReg(opcode, Sn_SR);
+	return dt;
+}
+
+uint8_t w5500_getInterruptStatus(uint8_t sock_num) {
+	uint8_t dt;
+	uint8_t opcode = 0;
+	opcode = (((sock_num << 2) | BSB_S0) << 3) | OM_FDM1;
+	dt = w5500_readReg(opcode, Sn_IR);
 	return dt;
 }
 
@@ -179,7 +187,7 @@ void w5500_init(void) {
 void w5500_packetReceive(void) {
 	uint16_t point;
 	uint16_t len;
-	if (GetSocketStatus(tcpprop.cur_sock) == SOCK_ESTABLISHED) {
+	if (w5500_getSocketStatus(tcpprop.cur_sock) == SOCK_ESTABLISHED) {
 		if (httpsockprop[tcpprop.cur_sock].data_stat == DATA_COMPLETED) {
 			// Display size of received data
 			len = GetSizeRX(0);
